@@ -131,9 +131,9 @@ class LeafyDialog<TTheme extends LeafyTheme> extends StatelessWidget {
                     if (body != null) const LeafySpacer(multipler: 2.5),
                     if (body != null) body!,
                     const LeafySpacer(multipler: 2.0),
-                    Divider(
+                    const Divider(
                       height: 1,
-                      color: theme.backgroundColor,
+                      color: Colors.black54,
                     ),
                     ...options.map(
                       (item) => _LeafyDialogOptionWidget<TTheme>(option: item),

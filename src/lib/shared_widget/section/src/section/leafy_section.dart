@@ -45,7 +45,7 @@ class LeafySection<TTheme extends LeafyTheme> extends ThemedWidget<TTheme> {
           ),
         if (header != null) const LeafySpacer(multipler: .5),
         Material(
-          color: theme.backgroundColor,
+          color: Colors.black54,
           borderRadius: theme.sectionBorderRadius,
           clipBehavior: Clip.antiAlias,
           child: ListView.builder(

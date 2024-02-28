@@ -4,9 +4,9 @@ import '../../utils/enum/leafy_theme_style.dart';
 import 'leafy_theme.dart';
 import 'leafy_theme_constants.dart';
 
-const Color _kBraveBlue = Color(0xFF1B2137);
-const Color _kBrandLightColor = Color(0xFF6AC55C);
-const Color _kBrandDarkColor = Color(0xFFB4FFAD);
+const Color _kBraveBlue = Color(0xff4365b7);
+const Color _kBrandLightColor = Color(0xffab4b76);
+const Color _kBrandDarkColor = Color(0xffab4b76);
 
 const Color _kLightForegroundColor = _kBraveBlue;
 const Color _kLightForegroundPressedColor = _kBrandLightColor;
@@ -17,7 +17,7 @@ const Color _kLightTextInfoColor = Color(0xFF9D9D9D);
 const Color _kDarkForegroundColor = Colors.white;
 const Color _kDarkForegroundPressedColor = _kBrandDarkColor;
 const Color _kDarkBackgroundColor = Colors.black;
-const Color _kDarkSecondaryBackgroundColor = Color(0xFF222222);
+const Color _kDarkSecondaryBackgroundColor = Colors.black;
 const Color _kDarkTextInfoColor = Color(0xFFBDBDBD);
 
 const Color _kDialogNegativeColor = Color(0xFFE53935);
@@ -30,7 +30,7 @@ const Color _kDarkSeparatorColor = Color(0x30FFFFFF);
 const Color _kLightDeleteColor = Color(0xFFE53935);
 const Color _kDarkDeleteColor = Color(0xFFE53935);
 
-const Radius _defaultRadius = Radius.circular(10);
+const Radius _defaultRadius = Radius.zero;
 
 class HomeTheme extends LeafyTheme {
   const HomeTheme.light(Widget child)
