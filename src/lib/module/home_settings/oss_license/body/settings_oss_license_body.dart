@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:leafy_launcher/resources/assets/leafy_icons.dart';
+import 'package:leafy_launcher/resources/assets/rin_icons.dart';
 import 'package:leafy_launcher/shared_widget/section/leafy_section_lib.dart';
 import 'package:leafy_launcher/shared_widget/section/src/list/leafy_section_list.dart';
 

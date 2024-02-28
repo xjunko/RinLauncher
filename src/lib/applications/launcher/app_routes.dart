@@ -15,7 +15,6 @@ class AppRoutes {
   static const settingsAbout = '/settings/about';
   static const settingsOss = '/settings/about/oss';
   static const settingsOssLicense = '/settings/about/oss/:name';
-  static const tutorial = '/tutorial';
 
   static Future<void>? toHome({bool off = false}) {
     return off ? Get.offNamed(home) : Get.toNamed(home);

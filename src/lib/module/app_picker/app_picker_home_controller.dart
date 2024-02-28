@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:get/get.dart';
 import 'package:leafy_launcher/resources/localization/l10n.dart';
 import 'package:leafy_launcher/resources/localization/l10n_provider.dart';
-import 'package:leafy_launcher/resources/settings/leafy_settings.dart';
+import 'package:leafy_launcher/resources/settings/rin_settings.dart';
 import 'package:leafy_launcher/resources/theme/home_theme.dart';
 import 'package:leafy_launcher/services/applications/installed_application.dart';
 import 'package:leafy_launcher/services/device_vibration/device_vibration.dart';

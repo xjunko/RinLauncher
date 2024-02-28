@@ -29,7 +29,7 @@ abstract class PageBase<TController extends ControllerBase,
       builder: (context, theme) {
         Widget widget = Scaffold(
           resizeToAvoidBottomInset: resizeToAvoidBottomInset,
-          backgroundColor: theme.backgroundColor,
+          backgroundColor: Colors.black54,
           body: pageBody(context, theme),
           floatingActionButton: fab(context, theme),
         );

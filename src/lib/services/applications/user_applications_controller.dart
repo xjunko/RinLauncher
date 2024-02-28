@@ -8,7 +8,7 @@ import '../../applications/launcher/app_routes.dart';
 import '../../base/controller/status_controller_base.dart';
 import '../../resources/localization/l10n.dart';
 import '../../resources/localization/l10n_provider.dart';
-import '../../resources/settings/leafy_settings.dart';
+import '../../resources/settings/rin_settings.dart';
 import '../../resources/theme/leafy_theme.dart';
 import '../../utils/enum/user_selected_app_type.dart';
 import '../../utils/preferences/shared_preferences.dart';
@@ -377,25 +377,13 @@ class UserApplicationsController extends StatusControllerBase {
     _platformMethodsService.openLauncherPreferences();
   }
 
-  void openTutorial() {
-    Get.toNamed(AppRoutes.tutorial);
-  }
-
   void openWidgets() {
     Get.toNamed(AppRoutes.settingsWidgets);
   }
 
   String getLanguageTitle() {
-    if (L10n.isRu) {
-      return L10nProvider.getText(L10n.russianLanguage);
-    }
-
     if (L10n.isEn) {
       return L10nProvider.getText(L10n.englishLanguage);
-    }
-
-    if (L10n.isFr) {
-      return L10nProvider.getText(L10n.frenchLanguage);
     }
 
     if (L10n.isAsInSystem) {

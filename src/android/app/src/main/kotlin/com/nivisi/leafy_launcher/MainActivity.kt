@@ -19,6 +19,7 @@ import android.util.Base64
 import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
+import io.flutter.embedding.android.FlutterActivityLaunchConfigs.BackgroundMode.transparent
 import com.nivisi.leafy_launcher.installed_packages.LauncherAppsCallback
 import io.flutter.Log
 import io.flutter.embedding.engine.FlutterEngine
@@ -162,12 +163,6 @@ class MainActivity: LeafyActivityBase() {
                     context.startActivity(intent, options.toBundle())
                     result.success(null)
                 }
-                openLeafyNotes -> {
-                    val intent = Intent(context, NotesActivity::class.java)
-                    val options: ActivityOptions = getDefaultLaunchOptions()
-                    context.startActivity(intent, options.toBundle())
-                    result.success(null)
-                }
                 else -> result.notImplemented()
             }
         }
@@ -284,6 +279,11 @@ class MainActivity: LeafyActivityBase() {
         }
 
         super.onNewIntent(intent)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        intent.putExtra("background_mode", transparent.toString())
+        super.onCreate(savedInstanceState)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -459,7 +459,6 @@ class MainActivity: LeafyActivityBase() {
         private const val openLauncherPreferences = "openLauncherPreferences"
         private const val deleteApp = "deleteApp"
         private const val viewInfo = "viewInfo"
-        private const val openLeafyNotes = "openLeafyNotes"
 
         private const val argumentPackageName = "packageName"
         private const val argumentTransition = "transition"

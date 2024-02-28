@@ -13,14 +13,15 @@ class L10n {
 
   static Locale get locale => _locale;
 
-  static bool get isRu => !_isAsInSystem && _locale.languageCode == 'ru';
-  static bool get isEn => !_isAsInSystem && _locale.languageCode == 'en';
-  static bool get isFr => !_isAsInSystem && _locale.languageCode == 'fr';
+  static bool get isEn => true;
+  static bool get isRu => false;
+  static bool get isFr => false;
+
   static bool get isAsInSystem => _isAsInSystem;
 
-  static const Locale ruLocale = Locale('ru', 'RU');
+  static const Locale ruLocale = Locale('en', 'US');
   static const Locale enLocale = Locale('en', 'US');
-  static const Locale frLocale = Locale('fr', 'FR');
+  static const Locale frLocale = Locale('en', 'US');
 
   static const Locale fallbackLocale = enLocale;
 
@@ -228,30 +229,6 @@ class L10n {
   static const String introWouldYouLikeToTakeATutorial =
       'introWouldYouLikeToTakeATutorial';
 
-  static const String tutorialAppCamera = 'tutorialAppCamera';
-  static const String tutorialAppPhone = 'tutorialAppPhone';
-  static const String tutorialAppBrowser = 'tutorialAppBrowser';
-  static const String tutorialAppGallery = 'tutorialAppGallery';
-  static const String tutorialAppMessages = 'tutorialAppMessages';
-  static const String tutorialAppAny = 'tutorialAnyApp';
-  static const String tutorialSkip = 'tutorialSkip';
-  static const String tutorialDone = 'tutorialDone';
-  static const String tutorialQuickAppLaunchTitle =
-      'tutorialQuickAppLaunchTitle';
-  static const String tutorialQuickAppLaunchInfo = 'tutorialQuickAppLaunchInfo';
-  static const String tutorialHorizontalSwipesTitle =
-      'tutorialHorizontalSwipesTitle';
-  static const String tutorialHorizontalSwipesInfo =
-      'tutorialHorizontalSwipesInfo';
-  static const String tutorialCornerButtonsTitle = 'tutorialCornerButtonsTitle';
-  static const String tutorialCornerButtonsInfo = 'tutorialCornerButtonsInfo';
-  static const String tutorialAppPickerTitle = 'tutorialAppPickerTitle';
-  static const String tutorialAppPickerInfo = 'tutorialAppPickerInfo';
-  static const String tutorialSearchTitle = 'tutorialSearchTitle';
-  static const String tutorialSearchInfo = 'tutorialSearchInfo';
-  static const String tutorialSettingsTitle = 'tutorialSettingsTitle';
-  static const String tutorialSettingsInfo = 'tutorialSettingsInfo';
-
   static const String timeProgressDay = 'timeProgressDay';
   static const String timeProgressWeek = 'timeProgressWeek';
   static const String timeProgressYear = 'timeProgressYear';
@@ -260,39 +237,6 @@ class L10n {
 
   static const String installedAppsRefetched = 'installedAppsRefetched';
 
-  static const String leafyNotesFoldersTitle = 'leafyNotesFoldersTitle';
-  static const String leafyNotesTitle = 'leafyNotesTitle';
-  static const String leafyNotesNewFolderDialogTitle =
-      'leafyNotesNewFolderDialogTitle';
-  static const String leafyNotesNewFolderDialogMessage =
-      'leafyNotesNewFolderDialogMessage';
-  static const String defaultFolderTitle = 'defaultFolderTitle';
-  static const String leafyNotesNoteTitlePlaceholder =
-      'leafyNotesNoteTitlePlaceholder';
-  static const String leafyNotesNoteBodyPlaceholder =
-      'leafyNotesNoteBodyPlaceholder';
-  static const String leafyNotesUntitledNote = 'leafyNotesUntitledNote';
-  static const String leafyNotesNoteSaved = 'leafyNotesNoteSaved';
-  static const String leafyNotesNotesEmptyStateMessage =
-      'leafyNotesNotesEmptyStateMessage';
-  static const String leafyNotesNotesEmptyStateMessageEmoji =
-      'leafyNotesNotesEmptyStateMessageEmoji';
-  static const String leafyNotesRenameFolderDialogTitle =
-      'leafyNotesRenameFolderDialogTitle';
-  static const String leafyNotesRenameFolderDialogMessage =
-      'leafyNotesRenameFolderDialogMessage';
-  static const String leafyNotesFolderTitlePlaceholder =
-      'leafyNotesFolderTitlePlaceholder';
-  static const String leafyNotesShareAsText = 'leafyNotesShareAsText';
-  static const String leafyNotesShareAsFile = 'leafyNotesShareAsFile';
-  static const String leafyNotesCloseWithoutSaving =
-      'leafyNotesCloseWithoutSaving';
-  static const String leafyNotesSave = 'leafyNotesSave';
-  static const String leafyNotesUnableToShareEmptyNote =
-      'leafyNotesUnableToShareEmptyNote';
-
-  static const String russianLanguage = 'russianLanguage';
   static const String englishLanguage = 'englishLanguage';
-  static const String frenchLanguage = 'frenchLanguage';
   static const String languageAsInSystem = 'languageAsInSystem';
 }

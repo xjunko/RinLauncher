@@ -1,4 +1,4 @@
-part of 'leafy_settings.dart';
+part of 'rin_settings.dart';
 
 const _kAlways = 'always';
 const _kOnLaunch = 'onLaunch';

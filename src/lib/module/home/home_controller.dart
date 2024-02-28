@@ -4,7 +4,7 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:leafy_launcher/module/home/widget/home_widgets/time_progress/time_progress.dart';
-import 'package:leafy_launcher/resources/settings/leafy_settings.dart';
+import 'package:leafy_launcher/resources/settings/rin_settings.dart';
 import 'package:leafy_launcher/services/device_vibration/device_vibration.dart';
 import 'package:leafy_launcher/services/home_button_listener/home_button_listener.dart';
 
@@ -18,13 +18,10 @@ import '../../utils/enum/app_launch_transition.dart';
 import '../../utils/enum/corner_button_type.dart';
 import '../../utils/enum/user_selected_app_type.dart';
 import '../../utils/preferences/shared_preferences.dart';
-import 'widget/corner_button/corner_button.dart';
 
 class HomeController extends StatusControllerBase
     with GetSingleTickerProviderStateMixin {
   static const String suggestionsBuilderKey = 'suggestionsBuilder';
-  static const String leftCornerButtonBuilderKey = 'leftCornerButtonBuilder';
-  static const String rightCornerButtonBuilderKey = 'rightCornerButtonBuilder';
   static const String timeProgressBuilderKey = 'timeProgressBuilderKey';
   static const String timeProgressTypeBuilderKey = 'timeProgressTypeBuilderKey';
   static const String calendarBuilderKey = 'calendarBuilderKey';
@@ -433,8 +430,9 @@ class HomeController extends StatusControllerBase
     _backButtonController.add(null);
   }
 
+  // NOTE: We don't need this anymore.
   Future? onDoubleTap() {
-    return _platformMethodsService.openLeafyNotes();
+    return null;
   }
 
   Future cornerButtonPressed(CornerButtonType type) async {
@@ -450,30 +448,6 @@ class HomeController extends StatusControllerBase
       default:
         throw Exception('Unknown CornetButtonType');
     }
-  }
-
-  void setButton(CornerButtonPosition position, CornerButtonType type) {
-    if (position == CornerButtonPosition.left) {
-      _leftCornerButtonType = type;
-
-      sharedPreferences.setString(
-        kLeftCornerButtonType,
-        stringifyCornerButtonType(type),
-      );
-
-      update([leftCornerButtonBuilderKey]);
-
-      return;
-    }
-
-    _rightCornerButtonType = type;
-
-    sharedPreferences.setString(
-      kRightCornerButtonType,
-      stringifyCornerButtonType(type),
-    );
-
-    update([rightCornerButtonBuilderKey]);
   }
 
   void setIsTimeProgressVisible({bool value = true}) {
@@ -519,36 +493,6 @@ class HomeController extends StatusControllerBase
     );
 
     update([clockBuilderKey]);
-  }
-
-  void setIsLeftCornerAppVisible({bool value = true}) {
-    if (_isLeftCornerButtonVisible == value) {
-      return;
-    }
-
-    _isLeftCornerButtonVisible = value;
-
-    sharedPreferences.setBool(
-      kIsLeftCornerButtonVisible,
-      isLeftCornerButtonVisible,
-    );
-
-    update([leftCornerButtonBuilderKey]);
-  }
-
-  void setIsRightCornerAppVisible({bool value = true}) {
-    if (_isRightCornerButtonVisible == value) {
-      return;
-    }
-
-    _isRightCornerButtonVisible = value;
-
-    sharedPreferences.setBool(
-      kIsRightCornerButtonVisible,
-      isRightCornerButtonVisible,
-    );
-
-    update([rightCornerButtonBuilderKey]);
   }
 
   void nextTimeProgressType() {

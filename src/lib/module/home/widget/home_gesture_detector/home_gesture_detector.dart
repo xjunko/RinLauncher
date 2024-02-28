@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/resources/settings/leafy_settings.dart';
+import 'package:leafy_launcher/resources/settings/rin_settings.dart';
 import 'package:leafy_launcher/services/home_button_listener/home_button_listener.dart';
 
 import '../../../../resources/app_constants.dart';

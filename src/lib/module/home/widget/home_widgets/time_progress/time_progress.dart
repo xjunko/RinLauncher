@@ -6,7 +6,7 @@ import 'package:leafy_launcher/module/home/home_controller.dart';
 import 'package:leafy_launcher/resources/app_constants.dart';
 import 'package:leafy_launcher/resources/localization/l10n.dart';
 import 'package:leafy_launcher/resources/localization/l10n_provider.dart';
-import 'package:leafy_launcher/resources/settings/leafy_settings.dart';
+import 'package:leafy_launcher/resources/settings/rin_settings.dart';
 import 'package:leafy_launcher/services/device_vibration/device_vibration.dart';
 import 'package:leafy_launcher/shared_widget/leafy_spacer.dart';
 

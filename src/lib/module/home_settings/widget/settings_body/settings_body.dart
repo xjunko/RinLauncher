@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:leafy_launcher/module/home_settings/home_settings_controller.dart';
 import 'package:leafy_launcher/module/home_settings/widget/settings_body/home_widgets/home_widgets.dart';
 import 'package:leafy_launcher/module/home_settings/widget/settings_body/swipe_apps/swipe_to_left_app.dart';
-import 'package:leafy_launcher/resources/settings/leafy_settings.dart';
+import 'package:leafy_launcher/resources/settings/rin_settings.dart';
 import 'package:leafy_launcher/shared_widget/section/leafy_section_lib.dart';
 import 'package:leafy_launcher/shared_widget/section/src/list/leafy_section_list.dart';
 
@@ -16,9 +16,6 @@ import '../../../../shared_widget/themed_get_widget.dart';
 import '../../../../utils/enum/leafy_theme_style.dart';
 import 'select_default_launcher/select_default_launcher.dart';
 import 'swipe_apps/swipe_to_right_app.dart';
-import 'take_tutorial/take_tutorial.dart';
-
-part 'common/language.dart';
 part 'common/theme.dart';
 part 'common/vibration.dart';
 part 'about/about.dart';
@@ -43,7 +40,6 @@ class SettingsBody
         LeafySection<HomeTheme>(
           header: L10nProvider.getText(L10n.settingsCommonSettingsHeader),
           children: const [
-            _Language(),
             _Theme(),
             _Vibration(),
           ],
@@ -53,13 +49,6 @@ class SettingsBody
           footer: L10nProvider.getText(L10n.settingsWidgetsFooter),
           children: const [
             HomeWidgets(),
-          ],
-        ),
-        LeafySection<HomeTheme>(
-          header: L10nProvider.getText(L10n.settingsDoTutorialHeader),
-          footer: L10nProvider.getText(L10n.settingsDoTutorialFooter),
-          children: const [
-            TakeTutorial(),
           ],
         ),
         LeafySection<HomeTheme>(

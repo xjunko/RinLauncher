@@ -19,8 +19,8 @@ class HomeSettingsPage
 
   @override
   Widget ready(BuildContext context, LeafyTheme theme) {
-    return Column(
-      children: const [
+    return const Column(
+      children: [
         SettingsTitle(),
         Expanded(child: SettingsBody()),
       ],

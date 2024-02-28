@@ -10,7 +10,6 @@ import '../../resources/theme/leafy_theme.dart';
 import '../../shared_widget/leafy_spacer.dart';
 import '../../utils/enum/user_selected_app_type.dart';
 import 'home_controller.dart';
-import 'widget/corner_button/corner_button.dart';
 import 'widget/home_gesture_detector/home_gesture_detector.dart';
 import 'widget/home_widgets/home_clock.dart';
 import 'widget/home_widgets/home_date.dart';
@@ -169,32 +168,6 @@ class HomePage extends StatusPageBase<HomeController, HomeTheme> {
                               const Spacer(),
                             ],
                           ),
-                        ),
-                        GetBuilder<HomeController>(
-                          init: controller,
-                          id: HomeController.leftCornerButtonBuilderKey,
-                          builder: (_) {
-                            return Visibility(
-                              visible: controller.isLeftCornerButtonVisible,
-                              child: CornerButton(
-                                type: controller.leftCornerButtonType,
-                                position: CornerButtonPosition.left,
-                              ),
-                            );
-                          },
-                        ),
-                        GetBuilder<HomeController>(
-                          init: controller,
-                          id: HomeController.rightCornerButtonBuilderKey,
-                          builder: (_) {
-                            return Visibility(
-                              visible: controller.isRightCornerButtonVisible,
-                              child: CornerButton(
-                                type: controller.rightCornerButtonType,
-                                position: CornerButtonPosition.right,
-                              ),
-                            );
-                          },
                         ),
                       ],
                     ),

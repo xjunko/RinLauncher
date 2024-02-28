@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:leafy_launcher/resources/assets/leafy_icons.dart';
+import 'package:leafy_launcher/resources/assets/rin_icons.dart';
 import 'package:leafy_launcher/shared_widget/section/leafy_section_lib.dart';
 import 'package:leafy_launcher/shared_widget/section/src/list/leafy_section_list.dart';
 
@@ -12,8 +12,6 @@ import '../../../../shared_widget/themed_get_widget.dart';
 import '../home_settings_about_controller.dart';
 
 part 'info/github.dart';
-part 'info/gmail.dart';
-part 'info/telegram.dart';
 part 'oss/oss.dart';
 
 class SettingsAboutBody
@@ -29,8 +27,6 @@ class SettingsAboutBody
           footer: L10nProvider.getText(L10n.settingsAboutInfo),
           children: const [
             _GitHub(),
-            _Gmail(),
-            _Telegram(),
           ],
         ),
         LeafySection<HomeTheme>(

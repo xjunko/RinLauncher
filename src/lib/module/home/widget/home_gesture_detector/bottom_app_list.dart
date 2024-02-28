@@ -28,7 +28,7 @@ class BottomAppList extends ThemedWidget<HomeTheme> {
   Widget body(BuildContext context, LeafyTheme theme) {
     return Container(
       color: Colors.transparent,
-      padding: const EdgeInsets.only(top: kDefaultPadding * 2.0),
+      // padding: const EdgeInsets.only(top: kDefaultPadding * 2.0),
       child: AnimatedBuilder(
         animation: _animationController,
         builder: (context, child) {

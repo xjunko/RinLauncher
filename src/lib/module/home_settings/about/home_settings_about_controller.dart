@@ -40,20 +40,6 @@ class HomeSettingsAboutController extends StatusControllerBase {
     }
   }
 
-  Future<void> openGmail() async {
-    final link = 'mailto:${_appEnvironment.email}';
-
-    if (await canLaunch(link)) {
-      await launch(link);
-    }
-  }
-
-  Future<void> openTelegram() async {
-    if (await canLaunch(_appEnvironment.telegramChat)) {
-      await launch(_appEnvironment.telegramChat);
-    }
-  }
-
   void onTitleTapped() {
     if (scrollController.hasClients) {
       scrollController.animateTo(
