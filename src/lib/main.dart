@@ -6,7 +6,7 @@ import 'applications/launcher/rin_launcher.dart';
 import 'utils/app_flavour/app_flavour.dart';
 
 // NOTE: Might be useful.
-// const _appChannel = MethodChannel('com.nivisi.leafy_launcher/app');
+// const _appChannel = MethodChannel('me.rinari.love/app');
 
 void main() => mainCommon(AppFlavour.dev);
 

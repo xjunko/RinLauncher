@@ -1,8 +1,8 @@
-package com.nivisi.leafy_launcher.installed_packages
+package me.rinari.love.installed_packages
 
 import android.content.pm.LauncherApps
 import android.os.UserHandle
-import com.nivisi.leafy_launcher.broadcast_receivers.AppChangeReceiver
+import me.rinari.love.broadcast_receivers.AppChangeReceiver
 
 class LauncherAppsCallback : LauncherApps.Callback() {
     override fun onPackageAdded(packageName: String, user: UserHandle) {

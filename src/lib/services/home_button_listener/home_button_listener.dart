@@ -7,7 +7,7 @@ class HomeButtonListener {
   const HomeButtonListener();
 
   static const _channel = EventChannel(
-    'com.nivisi.leafy_launcher/homePressedChannel',
+    'me.rinari.love/homePressedChannel',
   );
 
   static final Stream _stream = _channel.receiveBroadcastStream();

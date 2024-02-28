@@ -1,4 +1,4 @@
-package com.nivisi.leafy_launcher
+package me.rinari.love
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
@@ -29,7 +29,7 @@ abstract class LeafyActivityBase: FlutterActivity() {
 
         registerDeviceLocaleChangedEventChannel(flutterEngine)
 
-        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "com.nivisi.leafy_launcher/app").setMethodCallHandler { call, result ->
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "me.rinari.love/app").setMethodCallHandler { call, result ->
             when (call.method) {
                 "app" -> {
                     result.success(appName())
@@ -41,6 +41,6 @@ abstract class LeafyActivityBase: FlutterActivity() {
     }
 
     companion object {
-        private const val deviceLocaleChangedChannel = "com.nivisi.leafy_launcher/deviceLocaleChangedChannel"
+        private const val deviceLocaleChangedChannel = "me.rinari.love/deviceLocaleChangedChannel"
     }
 }

@@ -1,4 +1,4 @@
-package com.nivisi.leafy_launcher
+package me.rinari.love
 
 import android.app.ActivityOptions
 import android.app.SearchManager
@@ -20,7 +20,7 @@ import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
 import io.flutter.embedding.android.FlutterActivityLaunchConfigs.BackgroundMode.transparent
-import com.nivisi.leafy_launcher.installed_packages.LauncherAppsCallback
+import me.rinari.love.installed_packages.LauncherAppsCallback
 import io.flutter.Log
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.EventChannel
@@ -441,10 +441,10 @@ class MainActivity: LeafyActivityBase() {
     companion object {
         var self: MainActivity? = null
 
-        private const val commonChannel = "com.nivisi.leafy_launcher/common"
-        private const val applicationChannel = "com.nivisi.leafy_launcher/applicationChannel"
-        private const val homePressedChannel = "com.nivisi.leafy_launcher/homePressedChannel"
-        private const val appsChangedChannel = "com.nivisi.leafy_launcher/appsChangedChannel"
+        private const val commonChannel = "me.rinari.love/common"
+        private const val applicationChannel = "me.rinari.love/applicationChannel"
+        private const val homePressedChannel = "me.rinari.love/homePressedChannel"
+        private const val appsChangedChannel = "me.rinari.love/appsChangedChannel"
 
         private const val initApps = "initApps"
         private const val getApps = "getApps"

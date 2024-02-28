@@ -45,7 +45,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.nivisi.leafy_launcher"
+        applicationId "me.rinari.love"
         minSdkVersion 24
         targetSdkVersion 31
         versionCode flutterVersionCode.toInteger()

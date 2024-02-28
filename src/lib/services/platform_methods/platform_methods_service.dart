@@ -2,7 +2,7 @@ import 'package:flutter/services.dart';
 
 import '../../utils/log/logable_mixin.dart';
 
-const _channel = MethodChannel('com.nivisi.leafy_launcher/common');
+const _channel = MethodChannel('me.rinari.love/common');
 
 const _methodOpenPhoneApp = 'openPhoneApp';
 const _methodOpenCameraApp = 'openCameraApp';

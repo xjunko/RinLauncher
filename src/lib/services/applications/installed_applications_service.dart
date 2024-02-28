@@ -19,11 +19,11 @@ import 'installed_application.dart';
 import 'leafy_application.dart';
 
 const _appChannel = MethodChannel(
-  'com.nivisi.leafy_launcher/applicationChannel',
+  'me.rinari.love/applicationChannel',
 );
 
 const _appsChangedChannel = EventChannel(
-  'com.nivisi.leafy_launcher/appsChangedChannel',
+  'me.rinari.love/appsChangedChannel',
 );
 
 const _argumentPackageName = 'packageName';

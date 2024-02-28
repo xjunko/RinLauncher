@@ -1,9 +1,9 @@
-package com.nivisi.leafy_launcher.broadcast_receivers
+package me.rinari.love.broadcast_receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.nivisi.leafy_launcher.MainActivity
+import me.rinari.love.MainActivity
 
 class AppChangeReceiver : BroadcastReceiver() {
 

@@ -1,4 +1,4 @@
-package com.nivisi.leafy_launcher
+package me.rinari.love
 
 import android.app.ActivityManager
 import android.os.Bundle

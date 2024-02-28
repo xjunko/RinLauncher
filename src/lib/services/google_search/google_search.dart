@@ -2,7 +2,7 @@ import 'package:flutter/services.dart';
 import '../../utils/log/logable_mixin.dart';
 
 class GoogleSearch with LogableMixin {
-  static const _channel = MethodChannel('com.nivisi.leafy_launcher/common');
+  static const _channel = MethodChannel('me.rinari.love/common');
 
   Future launchSearchAndroid(String query) async {
     try {

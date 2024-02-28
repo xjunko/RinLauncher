@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 const _deviceLocaleChangedChannel = EventChannel(
-  'com.nivisi.leafy_launcher/deviceLocaleChangedChannel',
+  'me.rinari.love/deviceLocaleChangedChannel',
 );
 
 class DeviceLocaleChangedListener {
