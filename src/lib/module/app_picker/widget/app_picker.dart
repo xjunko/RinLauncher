@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:leafy_launcher/module/app_picker/widget/app_picker_fade.dart';
 import 'package:leafy_launcher/shared_widget/leafy_spacer.dart';
 
 import '../../../resources/app_constants.dart';
@@ -76,26 +75,23 @@ class AppPicker extends ThemedWidget<HomeTheme> {
                     style: theme.bodyText2,
                   ),
                 )
-              : AppPickerFade(
-                  child: ListBuilder<Application>(
-                    scrollController:
-                        slidesScrollController ?? scrollController,
-                    padding: const EdgeInsets.fromLTRB(
-                      kHomeHorizontalPadding,
-                      kDefaultPadding * 2.0,
-                      kHomeHorizontalPadding,
-                      kDefaultPadding * 2.0,
-                    ),
-                    items: applications,
-                    separatorType: SeparatorType.space,
-                    builder: (app) {
-                      return AppPickerButton(
-                        application: app,
-                        onTapped: onAppSelected,
-                        onLongPress: onLongPress,
-                      );
-                    },
+              : ListBuilder<Application>(
+                  scrollController: slidesScrollController ?? scrollController,
+                  padding: const EdgeInsets.fromLTRB(
+                    kHomeHorizontalPadding,
+                    kDefaultPadding * 2.0,
+                    kHomeHorizontalPadding,
+                    kDefaultPadding * 2.0,
                   ),
+                  items: applications,
+                  separatorType: SeparatorType.space,
+                  builder: (app) {
+                    return AppPickerButton(
+                      application: app,
+                      onTapped: onAppSelected,
+                      onLongPress: onLongPress,
+                    );
+                  },
                 ),
         ),
       ],
