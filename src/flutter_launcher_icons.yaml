@@ -1,0 +1,4 @@
+flutter_launcher_icons:
+  android: "leafy_icon_round"
+  ios: false
+  image_path: "./android/app/src/main/rina.png"

@@ -16,7 +16,7 @@
 
     <application
         android:label="@string/app_name"
-        android:icon="@mipmap/leafy_icon"
+        android:icon="@mipmap/leafy_icon_round"
         android:allowBackup="true"
         android:fullBackupOnly="true">
 
