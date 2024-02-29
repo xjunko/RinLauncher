@@ -52,20 +52,21 @@ android {
         versionName flutterVersionName
     }
 
-    signingConfigs {
-        release {
-            keyAlias keyProperties['keyAlias']
-            keyPassword keyProperties['keyPassword']
-            storeFile keyProperties['storeFile'] ? file(keyProperties['storeFile']) : null
-            storePassword keyProperties['storePassword']
-        }
-    }
+    // signingConfigs {
+    //     release {
+    //         keyAlias 'android'
+    //         keyPassword 'android'
+    //         storeFile 'D:\\Projects\\RinLauncher\\src\\android\\keystore\\android.jks'
+    //         storePassword 'android'
+    //     }
+    // }
+
     buildTypes {
         release {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
     }
 
@@ -83,7 +84,7 @@ android {
             dimension "flavor-type"
             resValue "string", "app_name", "RinLauncher"
             resValue "string", "leafy_notes_title", "RinUnused"
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
     }
 }
