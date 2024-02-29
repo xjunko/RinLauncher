@@ -31,7 +31,10 @@ abstract class PageBase<TController extends ControllerBase,
       builder: (context, theme) {
         Widget widget = Scaffold(
           resizeToAvoidBottomInset: resizeToAvoidBottomInset,
-          backgroundColor: customBackgroundColor,
+          backgroundColor: customBackgroundColor == Colors.black
+              // Assume pure black means whatever the theme backgroundColor is.
+              ? theme.backgroundColor
+              : customBackgroundColor,
           body: pageBody(context, theme),
           floatingActionButton: fab(context, theme),
         );
