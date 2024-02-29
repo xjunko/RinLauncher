@@ -1,31 +1,30 @@
-import '../../resources/localization/l10n.dart';
-import '../../resources/localization/l10n_provider.dart';
-
 enum LeafyThemeStyle {
-  light,
+  // Default
   dark,
+  // Custom
+  rina,
 }
 
 extension LeafyThemeStyleExtensions on LeafyThemeStyle {
   String localize() {
     switch (this) {
-      case LeafyThemeStyle.light:
-        return L10nProvider.getText(L10n.themeStyleLight);
       case LeafyThemeStyle.dark:
-        return L10nProvider.getText(L10n.themeStyleDark);
+        return 'Dark';
+      case LeafyThemeStyle.rina:
+        return 'Rina';
       default:
         throw Exception('Unknown type');
     }
   }
 }
 
-const String _light = 'Light';
 const String _dark = 'Dark';
+const String _rina = 'Rina';
 
 String stringifyLeafyThemeStyle(LeafyThemeStyle style) {
   switch (style) {
-    case LeafyThemeStyle.light:
-      return _light;
+    case LeafyThemeStyle.rina:
+      return _rina;
     case LeafyThemeStyle.dark:
       return _dark;
 
@@ -36,8 +35,8 @@ String stringifyLeafyThemeStyle(LeafyThemeStyle style) {
 
 LeafyThemeStyle leafyThemeStyleFromString(String str) {
   switch (str) {
-    case _light:
-      return LeafyThemeStyle.light;
+    case _rina:
+      return LeafyThemeStyle.rina;
     case _dark:
       return LeafyThemeStyle.dark;
     default:
