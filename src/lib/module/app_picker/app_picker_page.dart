@@ -12,7 +12,7 @@ import 'app_picker_controller_base.dart';
 import 'widget/app_picker.dart';
 
 class AppPickerPage extends StatusPageBase<AppPickerController, HomeTheme> {
-  const AppPickerPage();
+  const AppPickerPage() : super(customBackgroundColor: Colors.black);
 
   @override
   Widget ready(BuildContext context, LeafyTheme theme) {

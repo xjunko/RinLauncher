@@ -9,7 +9,8 @@ import 'page_base.dart';
 
 abstract class StatusPageBase<T extends StatusControllerBase,
     TTheme extends LeafyTheme> extends PageBase<T, TTheme> {
-  const StatusPageBase();
+  const StatusPageBase({Color customBackgroundColor = Colors.transparent})
+      : super(customBackgroundColor: customBackgroundColor);
 
   Widget loading(BuildContext context, LeafyTheme theme) {
     return const Center(child: Loader());

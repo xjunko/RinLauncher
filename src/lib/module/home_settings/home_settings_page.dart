@@ -10,7 +10,7 @@ import 'widget/settings_title/settings_title.dart';
 
 class HomeSettingsPage
     extends StatusPageBase<HomeSettingsController, HomeTheme> {
-  const HomeSettingsPage();
+  const HomeSettingsPage() : super(customBackgroundColor: Colors.black);
 
   static const horizontalPadding = kDefaultPadding * 2.0;
 

@@ -19,7 +19,7 @@ import 'widget/horizontal_swipe_app_icon.dart';
 import 'widget/user_apps_list.dart';
 
 class HomePage extends StatusPageBase<HomeController, HomeTheme> {
-  const HomePage();
+  const HomePage() : super(customBackgroundColor: Colors.black54);
 
   static const _zoomDelta = .04;
 

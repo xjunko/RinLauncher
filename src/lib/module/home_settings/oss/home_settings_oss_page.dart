@@ -9,15 +9,15 @@ import 'title/home_settings_oss_title.dart';
 
 class HomeSettingsOssPage
     extends StatusPageBase<HomeSettingsOssController, HomeTheme> {
-  const HomeSettingsOssPage();
+  const HomeSettingsOssPage() : super(customBackgroundColor: Colors.black);
 
   @override
   bool get resizeToAvoidBottomInset => false;
 
   @override
   Widget ready(BuildContext context, LeafyTheme theme) {
-    return Column(
-      children: const [
+    return const Column(
+      children: [
         SettingsOssTitle(),
         Expanded(child: SettingsOssBody()),
       ],

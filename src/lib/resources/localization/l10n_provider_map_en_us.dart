@@ -33,7 +33,7 @@ var _mapEn = {
       'Here you can configure widgets displayed on the home screen',
   L10n.settingsAboutTitle: 'About RinLauncher',
   L10n.settingsAboutInfo:
-      '''RinLauncher is based on LeafyLauncher, you can search for it in Github!\nI have no fucking clue how to embed links here, so yeah.''',
+      '''RinLauncher is a heavily modified version of LeafyLauncher, written in Flutter!''',
   L10n.settingsAboutOpenGithub: 'Browse source code',
   L10n.settingsAboutOpenGmail: '[Rin] Unused Email.',
   L10n.settingsAboutOpenTelegram: '[Rin] Unused Telegram.',

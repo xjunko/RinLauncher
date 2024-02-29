@@ -9,15 +9,15 @@ import 'title/home_settings_about_title.dart';
 
 class HomeSettingsAboutPage
     extends StatusPageBase<HomeSettingsAboutController, HomeTheme> {
-  const HomeSettingsAboutPage();
+  const HomeSettingsAboutPage() : super(customBackgroundColor: Colors.black);
 
   @override
   bool get resizeToAvoidBottomInset => false;
 
   @override
   Widget ready(BuildContext context, LeafyTheme theme) {
-    return Column(
-      children: const [
+    return const Column(
+      children: [
         SettingsAboutTitle(),
         Expanded(child: SettingsAboutBody()),
       ],

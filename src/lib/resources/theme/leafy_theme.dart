@@ -99,7 +99,7 @@ abstract class LeafyTheme extends InheritedWidget {
     required this.defaultRadius,
   }) : super(key: key, child: child);
 
-  static Logger logger = getLogger(forObject: 'LeafyTheme');
+  static Logger logger = getLogger(forObject: 'RinLauncher');
 
   static LeafyThemeStyle get currentStyle => _currentStyle;
 
