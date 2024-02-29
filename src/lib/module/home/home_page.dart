@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:rin_launcher/module/home/widget/home_calendar/home_calendar.dart';
 
@@ -34,6 +35,9 @@ class HomePage extends StatusPageBase<HomeController, HomeTheme> {
 
   @override
   Widget ready(BuildContext context, LeafyTheme theme) {
+    // NOTE: Move this somewhere else.
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+
     return GetBuilder<HomeController>(
       id: HomeController.calendarPageBuilderKey,
       init: controller,
