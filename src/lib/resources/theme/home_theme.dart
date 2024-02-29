@@ -4,90 +4,67 @@ import '../../utils/enum/leafy_theme_style.dart';
 import 'leafy_theme.dart';
 import 'leafy_theme_constants.dart';
 
-const Color _kBraveBlue = Color(0xff4365b7);
-const Color _kBrandLightColor = Color(0xffab4b76);
-const Color _kBrandDarkColor = Color(0xffab4b76);
-
-const Color _kLightForegroundColor = _kBraveBlue;
-const Color _kLightForegroundPressedColor = _kBrandLightColor;
-const Color _kLightBackgroundColor = Colors.white;
-const Color _kLightSecondaryBackgroundColor = Color(0xFFEEEEEE);
-const Color _kLightTextInfoColor = Color(0xFF9D9D9D);
-
 const Color _kDarkForegroundColor = Colors.white;
-const Color _kDarkForegroundPressedColor = _kBrandDarkColor;
-const Color _kDarkBackgroundColor = Colors.black;
-const Color _kDarkSecondaryBackgroundColor = Colors.black;
-const Color _kDarkTextInfoColor = Color(0xFFBDBDBD);
-
-const Color _kDialogNegativeColor = Color(0xFFE53935);
-const Color _kDialogLightPositiveColor = _kLightForegroundPressedColor;
-const Color _kDialogDarkPositiveColor = _kDarkForegroundPressedColor;
-
-const Color _kLightSeparatorColor = Color(0x30000000);
-const Color _kDarkSeparatorColor = Color(0x30FFFFFF);
-
-const Color _kLightDeleteColor = Color(0xFFE53935);
-const Color _kDarkDeleteColor = Color(0xFFE53935);
 
 const Radius _defaultRadius = Radius.zero;
 
+// WIP: In progress of changing to ColorScheme System
 class HomeTheme extends LeafyTheme {
-  const HomeTheme.light(Widget child)
+  const HomeTheme.dark(Widget child)
       : super(
-          style: LeafyThemeStyle.light,
-          leafyColor: _kBrandLightColor,
           child: child,
-          foregroundColor: _kLightForegroundColor,
-          foregroundPressedColor: _kLightForegroundPressedColor,
-          backgroundColor: _kLightBackgroundColor,
-          secondaryBackgroundColor: _kLightSecondaryBackgroundColor,
-          textInfoColor: _kLightTextInfoColor,
-          dialogPositiveColor: _kDialogLightPositiveColor,
-          dialogNegativeColor: _kDialogNegativeColor,
-          separatorColor: _kLightSeparatorColor,
-          deleteColor: _kLightDeleteColor,
+          style: LeafyThemeStyle.dark,
+          leafyColor: const Color(0xffab4b76),
+          foregroundColor: Colors.white,
+          foregroundPressedColor: Colors.grey,
+          backgroundColor: Colors.black,
+          secondaryBackgroundColor: Colors.black54,
+          textInfoColor: Colors.white,
+          dialogPositiveColor: Colors.green,
+          dialogNegativeColor: Colors.red,
+          separatorColor: const Color(0x30FFFFFF),
+          deleteColor: Colors.red,
           bodyText1: const TextStyle(
             fontSize: kBodyText1FontSize,
-            color: _kLightForegroundColor,
+            color: _kDarkForegroundColor,
           ),
           bodyText2: const TextStyle(
             fontSize: kBodyText2FontSize,
-            color: _kLightForegroundColor,
+            color: _kDarkForegroundColor,
           ),
           bodyText3: const TextStyle(
             fontSize: kBodyText3FontSize,
-            color: _kLightForegroundColor,
+            color: _kDarkForegroundColor,
           ),
           bodyText4: const TextStyle(
             fontSize: kBodyText4FontSize,
-            color: _kLightForegroundColor,
+            color: _kDarkForegroundColor,
           ),
           bodyText5: const TextStyle(
             fontSize: kBodyText5FontSize,
-            color: _kLightForegroundColor,
+            color: _kDarkForegroundColor,
           ),
           bodyText6: const TextStyle(
             fontSize: kBodyText6FontSize,
-            color: _kLightForegroundColor,
+            color: _kDarkForegroundColor,
           ),
           defaultRadius: _defaultRadius,
         );
 
-  const HomeTheme.dark(Widget child)
+  const HomeTheme.rina(Widget child)
       : super(
-          style: LeafyThemeStyle.dark,
           child: child,
-          leafyColor: _kBrandDarkColor,
-          foregroundColor: _kDarkForegroundColor,
-          foregroundPressedColor: _kDarkForegroundPressedColor,
-          backgroundColor: _kDarkBackgroundColor,
-          secondaryBackgroundColor: _kDarkSecondaryBackgroundColor,
-          textInfoColor: _kDarkTextInfoColor,
-          dialogPositiveColor: _kDialogDarkPositiveColor,
-          dialogNegativeColor: _kDialogNegativeColor,
-          separatorColor: _kDarkSeparatorColor,
-          deleteColor: _kDarkDeleteColor,
+          style: LeafyThemeStyle.rina,
+          leafyColor: const Color(0xff992966),
+          foregroundColor: const Color(0xfff1d3e1),
+          foregroundPressedColor: const Color(0xffcd8498),
+          backgroundColor: const Color(0xff642a40),
+          secondaryBackgroundColor: const Color.fromARGB(104, 100, 42, 64),
+          textInfoColor: Colors.white,
+          dialogPositiveColor: Colors.green,
+          dialogNegativeColor: Colors.red,
+          separatorColor: const Color(0xfff1d3e1),
+          deleteColor: Colors.red,
           bodyText1: const TextStyle(
             fontSize: kBodyText1FontSize,
             color: _kDarkForegroundColor,

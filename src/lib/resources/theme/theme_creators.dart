@@ -6,8 +6,8 @@ typedef ThemeCreator<S extends LeafyTheme> = S Function({
 
 HomeTheme _homeCreator(Widget child) {
   switch (LeafyTheme.currentStyle) {
-    case LeafyThemeStyle.light:
-      return HomeTheme.light(child);
+    case LeafyThemeStyle.rina:
+      return HomeTheme.rina(child);
     case LeafyThemeStyle.dark:
       return HomeTheme.dark(child);
     default:
