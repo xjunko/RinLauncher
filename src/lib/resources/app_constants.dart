@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const kButtonPressForwardAnimationDuration = Duration(milliseconds: 15);
 const kButtonPressReverseAnimationDuration = Duration(milliseconds: 100);
-const kDefaultAnimationDuration = Duration(milliseconds: 250);
+const kDefaultAnimationDuration = Duration(milliseconds: 100);
 const kDefaultRouteTransitionDuration = Duration(milliseconds: 100);
 const kAppRefetchDuration = Duration(minutes: 10);
 
