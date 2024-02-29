@@ -48,7 +48,7 @@ jobs:
         uses: subosito/flutter-action@v1
         with:
           channel: 'stable'
-          flutter-version: '2.10.0'
+          flutter-version: '3.16.9'
 
       - name: Get packages
         run: flutter pub get
@@ -63,7 +63,7 @@ jobs:
         run: flutter pub run flutter_oss_licenses:generate.dart
 
       - name: Build APK 🌱
-        run: flutter build apk --release --build-number "${{ github.run_number }}" --flavor dev -t lib/main_dev.dart
+        run: flutter build apk --release --build-number "${{ github.run_number }}" --flavor prod -t lib/main_prod.dart
 
       - name: Upload APK
         uses: actions/upload-artifact@v1
