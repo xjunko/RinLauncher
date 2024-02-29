@@ -1,6 +1,6 @@
-import 'package:leafy_launcher/oss_licenses.dart';
-import 'package:leafy_launcher/services/oss_licenses/oss_license.dart';
-import 'package:leafy_launcher/utils/extensions/iterable_extensions.dart';
+import 'package:rin_launcher/oss_licenses.dart';
+import 'package:rin_launcher/services/oss_licenses/oss_license.dart';
+import 'package:rin_launcher/utils/extensions/iterable_extensions.dart';
 
 class OssLicensesService {
   final List<OssLicense> _licenses = <OssLicense>[];

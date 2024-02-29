@@ -1,7 +1,7 @@
-import 'package:leafy_launcher/resources/localization/l10n.dart';
-import 'package:leafy_launcher/resources/localization/l10n_provider.dart';
-import 'package:leafy_launcher/utils/log/logable_mixin.dart';
-import 'package:leafy_launcher/utils/preferences/shared_preferences.dart';
+import 'package:rin_launcher/resources/localization/l10n.dart';
+import 'package:rin_launcher/resources/localization/l10n_provider.dart';
+import 'package:rin_launcher/utils/log/logable_mixin.dart';
+import 'package:rin_launcher/utils/preferences/shared_preferences.dart';
 
 part 'vibration_preferences.dart';
 

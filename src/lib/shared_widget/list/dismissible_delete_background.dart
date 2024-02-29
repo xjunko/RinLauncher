@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:leafy_launcher/module/home/utils/gesture_processer.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/resources/theme/leafy_theme.dart';
+import 'package:rin_launcher/module/home/utils/gesture_processer.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/resources/theme/leafy_theme.dart';
 
 import '../themed_widget.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:leafy_launcher/resources/theme/leafy_theme.dart';
-import 'package:leafy_launcher/shared_widget/context_menu/context_menu_route.dart';
-import 'package:leafy_launcher/shared_widget/leafy_text_button.dart';
-import 'package:leafy_launcher/shared_widget/themed_widget.dart';
+import 'package:rin_launcher/resources/theme/leafy_theme.dart';
+import 'package:rin_launcher/shared_widget/context_menu/context_menu_route.dart';
+import 'package:rin_launcher/shared_widget/leafy_text_button.dart';
+import 'package:rin_launcher/shared_widget/themed_widget.dart';
 
 class ContextMenuButton<TTheme extends LeafyTheme>
     extends ThemedWidget<TTheme> {

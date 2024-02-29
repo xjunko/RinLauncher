@@ -3,12 +3,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:leafy_launcher/module/home/widget/home_calendar/home_calendar_cell.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/resources/theme/home_theme.dart';
-import 'package:leafy_launcher/resources/theme/leafy_theme.dart';
-import 'package:leafy_launcher/services/date_changed/date_changed_listener.dart';
-import 'package:leafy_launcher/shared_widget/themed_state.dart';
+import 'package:rin_launcher/module/home/widget/home_calendar/home_calendar_cell.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/resources/theme/home_theme.dart';
+import 'package:rin_launcher/resources/theme/leafy_theme.dart';
+import 'package:rin_launcher/services/date_changed/date_changed_listener.dart';
+import 'package:rin_launcher/shared_widget/themed_state.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 import 'home_calendar_cell.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:leafy_launcher/module/home_settings/oss/home_settings_oss_controller.dart';
-import 'package:leafy_launcher/shared_widget/leafy_spacer.dart';
-import 'package:leafy_launcher/shared_widget/section/leafy_section_lib.dart';
-import 'package:leafy_launcher/shared_widget/section/src/list/leafy_section_list.dart';
+import 'package:rin_launcher/module/home_settings/oss/home_settings_oss_controller.dart';
+import 'package:rin_launcher/shared_widget/leafy_spacer.dart';
+import 'package:rin_launcher/shared_widget/section/leafy_section_lib.dart';
+import 'package:rin_launcher/shared_widget/section/src/list/leafy_section_list.dart';
 
 import '../../../../resources/theme/home_theme.dart';
 import '../../../../resources/theme/leafy_theme.dart';

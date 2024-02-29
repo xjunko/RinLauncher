@@ -50,12 +50,6 @@ jobs:
           channel: 'stable'
           flutter-version: '2.10.0'
 
-      - name: Setup Key Store
-        run: (echo ${{ secrets.KEY_STORE }} | openssl base64 -d -A) > ./android/app/leafy.keystore
-
-      - name: Setup Key Properties
-        run: (echo ${{ secrets.KEY_PROPERTIES }} | openssl base64 -d -A) > ./android/key.properties
-
       - name: Get packages
         run: flutter pub get
 

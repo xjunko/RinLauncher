@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/resources/theme/home_theme.dart';
-import 'package:leafy_launcher/resources/theme/leafy_theme.dart';
-import 'package:leafy_launcher/shared_widget/leafy_spacer.dart';
-import 'package:leafy_launcher/shared_widget/leafy_text_button.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/resources/theme/home_theme.dart';
+import 'package:rin_launcher/resources/theme/leafy_theme.dart';
+import 'package:rin_launcher/shared_widget/leafy_spacer.dart';
+import 'package:rin_launcher/shared_widget/leafy_text_button.dart';
 
 import '../themed_widget.dart';
 

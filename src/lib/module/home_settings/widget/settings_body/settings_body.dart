@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/module/home_settings/home_settings_controller.dart';
-import 'package:leafy_launcher/module/home_settings/widget/settings_body/home_widgets/home_widgets.dart';
-import 'package:leafy_launcher/module/home_settings/widget/settings_body/swipe_apps/swipe_to_left_app.dart';
-import 'package:leafy_launcher/resources/settings/rin_settings.dart';
-import 'package:leafy_launcher/shared_widget/section/leafy_section_lib.dart';
-import 'package:leafy_launcher/shared_widget/section/src/list/leafy_section_list.dart';
+import 'package:rin_launcher/module/home_settings/home_settings_controller.dart';
+import 'package:rin_launcher/module/home_settings/widget/settings_body/home_widgets/home_widgets.dart';
+import 'package:rin_launcher/module/home_settings/widget/settings_body/swipe_apps/swipe_to_left_app.dart';
+import 'package:rin_launcher/resources/settings/rin_settings.dart';
+import 'package:rin_launcher/shared_widget/section/leafy_section_lib.dart';
+import 'package:rin_launcher/shared_widget/section/src/list/leafy_section_list.dart';
 
 import '../../../../resources/localization/l10n.dart';
 import '../../../../resources/localization/l10n_provider.dart';

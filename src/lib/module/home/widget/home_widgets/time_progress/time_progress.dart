@@ -2,13 +2,13 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/module/home/home_controller.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/resources/localization/l10n.dart';
-import 'package:leafy_launcher/resources/localization/l10n_provider.dart';
-import 'package:leafy_launcher/resources/settings/rin_settings.dart';
-import 'package:leafy_launcher/services/device_vibration/device_vibration.dart';
-import 'package:leafy_launcher/shared_widget/leafy_spacer.dart';
+import 'package:rin_launcher/module/home/home_controller.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/resources/localization/l10n.dart';
+import 'package:rin_launcher/resources/localization/l10n_provider.dart';
+import 'package:rin_launcher/resources/settings/rin_settings.dart';
+import 'package:rin_launcher/services/device_vibration/device_vibration.dart';
+import 'package:rin_launcher/shared_widget/leafy_spacer.dart';
 
 import '../../../../../resources/theme/home_theme.dart';
 import '../../../../../shared_widget/themed_state.dart';

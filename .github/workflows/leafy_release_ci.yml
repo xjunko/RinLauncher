@@ -85,12 +85,6 @@ jobs:
       - name: Grab list of OSS Components
         run: flutter pub run flutter_oss_licenses:generate.dart
 
-      - name: Setup Key Store
-        run: (echo ${{ secrets.KEY_STORE }} | openssl base64 -d -A) > ./android/app/leafy.keystore
-
-      - name: Setup Key Properties
-        run: (echo ${{ secrets.KEY_PROPERTIES }} | openssl base64 -d -A) > ./android/key.properties
-
       - name: Build APK 🌳
         run: flutter build apk --release --build-name "${{ env.APP_VERSION }}" --build-number "${{ github.run_number }}" --flavor prod -t lib/main_prod.dart
 
@@ -133,17 +127,6 @@ jobs:
               name: APP_BUNDLE_NAME,
               data: await fs.readFileSync(RENAMED_APP_BUNDLE_PATH)
             });
-
-      - name: Notify Telegram Chat
-        uses: appleboy/telegram-action@master
-        with:
-          to: ${{ secrets.TELEGRAM_CHAT_ID }}
-          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          document: ${{ env.APK_PATH }}${{ env.APK_NAME }}
-          message: |
-            Leafy ${{ env.APP_VERSION }} is here 🍃
-
-#           ${{ env.RELEASE_NOTES }} Publish it when the error is fixed :(
 
       - name: Create New Bug Label
         uses: actions/github-script@v5.0.0

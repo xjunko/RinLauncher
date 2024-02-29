@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:get/get.dart';
-import 'package:leafy_launcher/services/device_locale/device_locale_changed_listener.dart';
+import 'package:rin_launcher/services/device_locale/device_locale_changed_listener.dart';
 
 import '../../utils/preferences/shared_preferences.dart';
 

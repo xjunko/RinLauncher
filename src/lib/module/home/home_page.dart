@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/module/home/widget/home_calendar/home_calendar.dart';
+import 'package:rin_launcher/module/home/widget/home_calendar/home_calendar.dart';
 
 import '../../base/page/page_base.dart';
 import '../../base/page/status_page_base.dart';

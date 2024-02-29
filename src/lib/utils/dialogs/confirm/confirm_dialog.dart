@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/resources/theme/leafy_theme.dart';
-import 'package:leafy_launcher/utils/dialogs/leafy_dialog.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/resources/theme/leafy_theme.dart';
+import 'package:rin_launcher/utils/dialogs/leafy_dialog.dart';
 
 class ConfirmDialog<TTheme extends LeafyTheme> extends StatelessWidget {
   const ConfirmDialog._({

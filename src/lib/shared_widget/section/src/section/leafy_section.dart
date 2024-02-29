@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:leafy_launcher/resources/theme/leafy_theme.dart';
-import 'package:leafy_launcher/shared_widget/leafy_spacer.dart';
-import 'package:leafy_launcher/shared_widget/themed_widget.dart';
+import 'package:rin_launcher/resources/theme/leafy_theme.dart';
+import 'package:rin_launcher/shared_widget/leafy_spacer.dart';
+import 'package:rin_launcher/shared_widget/themed_widget.dart';
 
 import '../theme/leafy_section_theme.dart';
 import 'widget/leafy_section_footer.dart';

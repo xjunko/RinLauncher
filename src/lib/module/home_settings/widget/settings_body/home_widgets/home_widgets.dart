@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/shared_widget/section/src/items/values/leafy_section_chevron_value.dart';
+import 'package:rin_launcher/shared_widget/section/src/items/values/leafy_section_chevron_value.dart';
 
 import '../../../../../resources/localization/l10n.dart';
 import '../../../../../resources/localization/l10n_provider.dart';

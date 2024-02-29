@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:leafy_launcher/shared_widget/leafy_spacer.dart';
-import 'package:leafy_launcher/shared_widget/section/src/theme/leafy_section_theme.dart';
+import 'package:rin_launcher/shared_widget/leafy_spacer.dart';
+import 'package:rin_launcher/shared_widget/section/src/theme/leafy_section_theme.dart';
 
 class LeafySectionCustomItem extends StatelessWidget {
   const LeafySectionCustomItem({

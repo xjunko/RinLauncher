@@ -1,4 +1,4 @@
-import 'package:leafy_launcher/utils/app_flavour/app_flavour.dart';
+import 'package:rin_launcher/utils/app_flavour/app_flavour.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 class AppEnvironment {

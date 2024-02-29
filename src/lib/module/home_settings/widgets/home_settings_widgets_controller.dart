@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/module/home/home_controller.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/module/home/home_controller.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
 
 import '../../../base/controller/status_controller_base.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/applications/launcher/app_routes.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/services/app_environment/app_environment.dart';
+import 'package:rin_launcher/applications/launcher/app_routes.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/services/app_environment/app_environment.dart';
 
 import 'package:url_launcher/url_launcher.dart';
 

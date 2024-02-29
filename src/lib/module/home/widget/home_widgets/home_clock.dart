@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:leafy_launcher/module/home/home_controller.dart';
-import 'package:leafy_launcher/resources/settings/rin_settings.dart';
+import 'package:rin_launcher/module/home/home_controller.dart';
+import 'package:rin_launcher/resources/settings/rin_settings.dart';
 
 import '../../../../resources/theme/home_theme.dart';
 import '../../../../services/device_vibration/device_vibration.dart';

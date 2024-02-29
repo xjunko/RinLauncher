@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:leafy_launcher/resources/theme/home_theme.dart';
+import 'package:rin_launcher/resources/theme/home_theme.dart';
 
 import '../../../base/page/status_page_base.dart';
 import '../../../resources/theme/leafy_theme.dart';

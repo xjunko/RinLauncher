@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/module/home_settings/home_settings_controller.dart';
-import 'package:leafy_launcher/module/home_settings/widgets/body/calendar/calendar_enabled_state.dart';
-import 'package:leafy_launcher/module/home_settings/widgets/body/time_progress/time_progress_enabled_state.dart';
-import 'package:leafy_launcher/module/home_settings/widgets/body/time_progress/time_progress_type_state.dart';
-import 'package:leafy_launcher/shared_widget/section/leafy_section_lib.dart';
-import 'package:leafy_launcher/shared_widget/section/src/list/leafy_section_list.dart';
+import 'package:rin_launcher/module/home_settings/home_settings_controller.dart';
+import 'package:rin_launcher/module/home_settings/widgets/body/calendar/calendar_enabled_state.dart';
+import 'package:rin_launcher/module/home_settings/widgets/body/time_progress/time_progress_enabled_state.dart';
+import 'package:rin_launcher/module/home_settings/widgets/body/time_progress/time_progress_type_state.dart';
+import 'package:rin_launcher/shared_widget/section/leafy_section_lib.dart';
+import 'package:rin_launcher/shared_widget/section/src/list/leafy_section_list.dart';
 
 import '../../../../resources/localization/l10n.dart';
 import '../../../../resources/localization/l10n_provider.dart';

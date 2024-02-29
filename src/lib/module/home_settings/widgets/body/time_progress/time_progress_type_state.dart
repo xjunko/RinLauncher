@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/module/home/home_controller.dart';
-import 'package:leafy_launcher/module/home/widget/home_widgets/time_progress/time_progress.dart';
-import 'package:leafy_launcher/resources/localization/l10n.dart';
-import 'package:leafy_launcher/resources/localization/l10n_provider.dart';
-import 'package:leafy_launcher/resources/theme/home_theme.dart';
-import 'package:leafy_launcher/resources/theme/leafy_theme.dart';
-import 'package:leafy_launcher/shared_widget/section/leafy_section_lib.dart';
-import 'package:leafy_launcher/shared_widget/themed_get_widget.dart';
+import 'package:rin_launcher/module/home/home_controller.dart';
+import 'package:rin_launcher/module/home/widget/home_widgets/time_progress/time_progress.dart';
+import 'package:rin_launcher/resources/localization/l10n.dart';
+import 'package:rin_launcher/resources/localization/l10n_provider.dart';
+import 'package:rin_launcher/resources/theme/home_theme.dart';
+import 'package:rin_launcher/resources/theme/leafy_theme.dart';
+import 'package:rin_launcher/shared_widget/section/leafy_section_lib.dart';
+import 'package:rin_launcher/shared_widget/themed_get_widget.dart';
 
 class TimeProgressTypeState extends ThemedGetWidget<HomeController, HomeTheme> {
   const TimeProgressTypeState({Key? key}) : super(key: key);

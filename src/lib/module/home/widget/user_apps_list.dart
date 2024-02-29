@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
 
 import '../../../services/applications/user_applications_controller.dart';
 import '../../../shared_widget/leafy_spacer.dart';

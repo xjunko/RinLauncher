@@ -5,10 +5,10 @@ import 'dart:typed_data';
 import 'package:ensure_initialized/ensure_initialized.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/resources/settings/rin_settings.dart';
-import 'package:leafy_launcher/services/applications/exceptions/app_is_not_in_the_list_exception.dart';
-import 'package:leafy_launcher/services/device_locale/device_locale_changed_listener.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/resources/settings/rin_settings.dart';
+import 'package:rin_launcher/services/applications/exceptions/app_is_not_in_the_list_exception.dart';
+import 'package:rin_launcher/services/device_locale/device_locale_changed_listener.dart';
 
 import '../../utils/enum/app_launch_transition.dart';
 import '../../utils/log/logable_mixin.dart';

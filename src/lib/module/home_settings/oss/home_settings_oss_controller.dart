@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/applications/launcher/app_routes.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/services/oss_licenses/oss_license.dart';
-import 'package:leafy_launcher/services/oss_licenses/oss_licenses_service.dart';
+import 'package:rin_launcher/applications/launcher/app_routes.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/services/oss_licenses/oss_license.dart';
+import 'package:rin_launcher/services/oss_licenses/oss_licenses_service.dart';
 
 import '../../../base/controller/status_controller_base.dart';
 

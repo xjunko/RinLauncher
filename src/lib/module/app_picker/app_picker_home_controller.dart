@@ -1,14 +1,14 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
-import 'package:leafy_launcher/resources/localization/l10n.dart';
-import 'package:leafy_launcher/resources/localization/l10n_provider.dart';
-import 'package:leafy_launcher/resources/settings/rin_settings.dart';
-import 'package:leafy_launcher/resources/theme/home_theme.dart';
-import 'package:leafy_launcher/services/applications/installed_application.dart';
-import 'package:leafy_launcher/services/device_vibration/device_vibration.dart';
-import 'package:leafy_launcher/utils/dialogs/confirm/actions_dialog.dart';
-import 'package:leafy_launcher/utils/dialogs/leafy_dialog.dart';
+import 'package:rin_launcher/resources/localization/l10n.dart';
+import 'package:rin_launcher/resources/localization/l10n_provider.dart';
+import 'package:rin_launcher/resources/settings/rin_settings.dart';
+import 'package:rin_launcher/resources/theme/home_theme.dart';
+import 'package:rin_launcher/services/applications/installed_application.dart';
+import 'package:rin_launcher/services/device_vibration/device_vibration.dart';
+import 'package:rin_launcher/utils/dialogs/confirm/actions_dialog.dart';
+import 'package:rin_launcher/utils/dialogs/leafy_dialog.dart';
 
 import '../../services/applications/application.dart';
 import 'app_picker_controller_base.dart';

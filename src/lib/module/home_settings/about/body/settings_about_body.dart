@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:leafy_launcher/resources/assets/rin_icons.dart';
-import 'package:leafy_launcher/shared_widget/section/leafy_section_lib.dart';
-import 'package:leafy_launcher/shared_widget/section/src/list/leafy_section_list.dart';
+import 'package:rin_launcher/resources/assets/rin_icons.dart';
+import 'package:rin_launcher/shared_widget/section/leafy_section_lib.dart';
+import 'package:rin_launcher/shared_widget/section/src/list/leafy_section_list.dart';
 
 import '../../../../resources/localization/l10n.dart';
 import '../../../../resources/localization/l10n_provider.dart';

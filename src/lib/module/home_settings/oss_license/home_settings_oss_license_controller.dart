@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
-import 'package:leafy_launcher/services/oss_licenses/oss_license.dart';
-import 'package:leafy_launcher/services/oss_licenses/oss_licenses_service.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/services/oss_licenses/oss_license.dart';
+import 'package:rin_launcher/services/oss_licenses/oss_licenses_service.dart';
 
 import 'package:url_launcher/url_launcher.dart';
 

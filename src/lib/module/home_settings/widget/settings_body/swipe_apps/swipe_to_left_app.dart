@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/shared_widget/section/src/items/leafy_section_text_item.dart';
+import 'package:rin_launcher/shared_widget/section/src/items/leafy_section_text_item.dart';
 
 import '../../../../../resources/localization/l10n.dart';
 import '../../../../../resources/localization/l10n_provider.dart';

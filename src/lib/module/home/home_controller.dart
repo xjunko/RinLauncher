@@ -3,10 +3,10 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leafy_launcher/module/home/widget/home_widgets/time_progress/time_progress.dart';
-import 'package:leafy_launcher/resources/settings/rin_settings.dart';
-import 'package:leafy_launcher/services/device_vibration/device_vibration.dart';
-import 'package:leafy_launcher/services/home_button_listener/home_button_listener.dart';
+import 'package:rin_launcher/module/home/widget/home_widgets/time_progress/time_progress.dart';
+import 'package:rin_launcher/resources/settings/rin_settings.dart';
+import 'package:rin_launcher/services/device_vibration/device_vibration.dart';
+import 'package:rin_launcher/services/home_button_listener/home_button_listener.dart';
 
 import '../../applications/launcher/app_routes.dart';
 import '../../base/controller/status_controller_base.dart';

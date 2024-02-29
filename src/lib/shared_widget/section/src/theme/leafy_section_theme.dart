@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:leafy_launcher/resources/app_constants.dart';
+import 'package:rin_launcher/resources/app_constants.dart';
 
 class LeafySectionTheme extends InheritedWidget {
   const LeafySectionTheme({
