@@ -12,7 +12,9 @@ class OnWillPopData {
 
 abstract class PageBase<TController extends ControllerBase,
     TTheme extends LeafyTheme> extends GetView<TController> {
-  const PageBase({Key? key}) : super(key: key);
+  const PageBase({Key? key, this.customBackgroundColor = Colors.transparent})
+      : super(key: key);
+  final Color customBackgroundColor;
 
   @protected
   bool get resizeToAvoidBottomInset => true;
@@ -29,7 +31,7 @@ abstract class PageBase<TController extends ControllerBase,
       builder: (context, theme) {
         Widget widget = Scaffold(
           resizeToAvoidBottomInset: resizeToAvoidBottomInset,
-          backgroundColor: Colors.black54,
+          backgroundColor: customBackgroundColor,
           body: pageBody(context, theme),
           floatingActionButton: fab(context, theme),
         );
