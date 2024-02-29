@@ -100,9 +100,6 @@ class RinLauncher {
           GlobalMaterialLocalizations.delegate,
           GlobalCupertinoLocalizations.delegate,
         ],
-        supportedLocales: const [
-          L10n.enLocale,
-        ],
         locale: L10n.locale,
         fallbackLocale: L10n.enLocale,
         translations: L10nProvider(),
@@ -121,11 +118,15 @@ class RinLauncher {
             name: AppRoutes.appPickerSignature,
             binding: AppPickerBinding(),
             page: () => const AppPickerPage(),
+            transition: Transition.cupertino,
+            transitionDuration: kDefaultAnimationDuration,
           ),
           GetPage(
             name: AppRoutes.appPicker,
             binding: AppPickerBinding(),
             page: () => const AppPickerPage(),
+            transition: Transition.cupertino,
+            transitionDuration: kDefaultAnimationDuration,
           ),
           GetPage(
             name: AppRoutes.settings,
