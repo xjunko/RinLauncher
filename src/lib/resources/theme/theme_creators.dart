@@ -32,6 +32,15 @@ HomeTheme _homeCreator(Widget child) {
       case LeafyThemeStyle.onikatakayoko:
           return HomeTheme.onikatakayoko(child);
 
+      case LeafyThemeStyle.suigintou:
+          return HomeTheme.suigintou(child);
+
+      case LeafyThemeStyle.suigintoualternative:
+          return HomeTheme.suigintoualternative(child);
+
+      case LeafyThemeStyle.hutao:
+          return HomeTheme.hutao(child);
+
 
     default:
       throw 'Unknown style';

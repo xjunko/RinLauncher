@@ -26,6 +26,9 @@ images: dict[str, str] = {
     "FuukaAikiyo": "https://hatsune-miku.has.rocks/r/Fuuka_Reference.png",
     "SorasakiHina": "https://hatsune-miku.has.rocks/r/Hina_Reference.png",
     "OnikataKayoko": "https://hatsune-miku.has.rocks/r/Kayoko_Reference.png",
+    "Suigintou": "https://hatsune-miku.has.rocks/r/Suigintou_ReferenceV2.webp",
+    "SuigintouAlternative": "https://hatsune-miku.has.rocks/r/Suigintou_Reference.jpg",
+    "Hutao": "https://hatsune-miku.has.rocks/r/HuTao_Reference.png",
 }
 
 # fuckery

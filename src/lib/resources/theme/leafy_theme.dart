@@ -167,6 +167,15 @@ static void toggleTheme() {
           _currentStyle = LeafyThemeStyle.onikatakayoko;
           break;
       case LeafyThemeStyle.onikatakayoko:
+          _currentStyle = LeafyThemeStyle.suigintou;
+          break;
+      case LeafyThemeStyle.suigintou:
+          _currentStyle = LeafyThemeStyle.suigintoualternative;
+          break;
+      case LeafyThemeStyle.suigintoualternative:
+          _currentStyle = LeafyThemeStyle.hutao;
+          break;
+      case LeafyThemeStyle.hutao:
           _currentStyle = LeafyThemeStyle.dark;
           break;
         

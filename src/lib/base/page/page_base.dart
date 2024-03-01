@@ -29,12 +29,18 @@ abstract class PageBase<TController extends ControllerBase,
   Widget build(BuildContext context) {
     Widget widget = LeafyThemeState<TTheme>(
       builder: (context, theme) {
+        Color finalColor = customBackgroundColor;
+
+        // Assume black means whatever the theme backgroundColor is.
+        if (customBackgroundColor == Colors.black) {
+          finalColor = theme.backgroundColor;
+        } else if (customBackgroundColor == Colors.black54) {
+          finalColor = theme.backgroundColor.withAlpha(137);
+        }
+
         Widget widget = Scaffold(
           resizeToAvoidBottomInset: resizeToAvoidBottomInset,
-          backgroundColor: customBackgroundColor == Colors.black
-              // Assume pure black means whatever the theme backgroundColor is.
-              ? theme.backgroundColor
-              : customBackgroundColor,
+          backgroundColor: finalColor,
           body: pageBody(context, theme),
           floatingActionButton: fab(context, theme),
         );
