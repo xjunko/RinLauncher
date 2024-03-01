@@ -19,9 +19,13 @@ templates: Path = Path.cwd() / "refs"
 
 images: dict[str, str] = {
     "Dark": "https://hatsune-miku.has.rocks/r/Default_Reference.png",
-    "Rina": "https://hatsune-miku.has.rocks/r/Rina_Reference.png",
+    "TennojiRina": "https://hatsune-miku.has.rocks/r/Rina_Reference.png",
     "KagamineRin": "https://hatsune-miku.has.rocks/r/Rin_Reference.png",
+    "HatsuneMiku": "https://hatsune-miku.has.rocks/r/Miku_Reference.webp",
     "YuukaHayase": "https://hatsune-miku.has.rocks/r/Yuuka_Reference.png",
+    "FuukaAikiyo": "https://hatsune-miku.has.rocks/r/Fuuka_Reference.png",
+    "SorasakiHina": "https://hatsune-miku.has.rocks/r/Hina_Reference.png",
+    "OnikataKayoko": "https://hatsune-miku.has.rocks/r/Kayoko_Reference.png",
 }
 
 # fuckery

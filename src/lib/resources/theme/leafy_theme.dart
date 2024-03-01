@@ -146,15 +146,27 @@ abstract class LeafyTheme extends InheritedWidget {
 static void toggleTheme() {
     switch (_currentStyle) {
       case LeafyThemeStyle.dark:
-          _currentStyle = LeafyThemeStyle.rina;
+          _currentStyle = LeafyThemeStyle.tennojirina;
           break;
-      case LeafyThemeStyle.rina:
+      case LeafyThemeStyle.tennojirina:
           _currentStyle = LeafyThemeStyle.kagaminerin;
           break;
       case LeafyThemeStyle.kagaminerin:
+          _currentStyle = LeafyThemeStyle.hatsunemiku;
+          break;
+      case LeafyThemeStyle.hatsunemiku:
           _currentStyle = LeafyThemeStyle.yuukahayase;
           break;
       case LeafyThemeStyle.yuukahayase:
+          _currentStyle = LeafyThemeStyle.fuukaaikiyo;
+          break;
+      case LeafyThemeStyle.fuukaaikiyo:
+          _currentStyle = LeafyThemeStyle.sorasakihina;
+          break;
+      case LeafyThemeStyle.sorasakihina:
+          _currentStyle = LeafyThemeStyle.onikatakayoko;
+          break;
+      case LeafyThemeStyle.onikatakayoko:
           _currentStyle = LeafyThemeStyle.dark;
           break;
         

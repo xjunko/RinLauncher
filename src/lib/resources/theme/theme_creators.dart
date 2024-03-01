@@ -11,14 +11,26 @@ HomeTheme _homeCreator(Widget child) {
       case LeafyThemeStyle.dark:
           return HomeTheme.dark(child);
 
-      case LeafyThemeStyle.rina:
-          return HomeTheme.rina(child);
+      case LeafyThemeStyle.tennojirina:
+          return HomeTheme.tennojirina(child);
 
       case LeafyThemeStyle.kagaminerin:
           return HomeTheme.kagaminerin(child);
 
+      case LeafyThemeStyle.hatsunemiku:
+          return HomeTheme.hatsunemiku(child);
+
       case LeafyThemeStyle.yuukahayase:
           return HomeTheme.yuukahayase(child);
+
+      case LeafyThemeStyle.fuukaaikiyo:
+          return HomeTheme.fuukaaikiyo(child);
+
+      case LeafyThemeStyle.sorasakihina:
+          return HomeTheme.sorasakihina(child);
+
+      case LeafyThemeStyle.onikatakayoko:
+          return HomeTheme.onikatakayoko(child);
 
 
     default:
