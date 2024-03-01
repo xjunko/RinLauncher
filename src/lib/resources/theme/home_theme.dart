@@ -11,341 +11,331 @@ const Color _kDarkForegroundColor = Colors.white;
 const Radius _defaultRadius = Radius.zero;
 
 class HomeTheme extends LeafyTheme {
+  const HomeTheme.dark(Widget child)
+      : super(
+          child: child,
+          style: LeafyThemeStyle.dark,
+          leafyColor: const Color(0xff6672AE),
+          foregroundColor: const Color(0xfff5e0e9),
+          foregroundPressedColor: const Color(0xffab9ca3),
+          backgroundColor: const Color(0xff010001),
+          secondaryBackgroundColor: const Color(0xff5C73B3),
+          textInfoColor: const Color(0xfff5e0e9),
+          dialogPositiveColor: const Color(0xff6672AE),
+          dialogNegativeColor: const Color(0xff54A4C4),
+          separatorColor: const Color(0xff5C73B3),
+          deleteColor: const Color(0xff54A4C4),
+          bodyText1: const TextStyle(
+            fontSize: kBodyText1FontSize,
+            color: Color(0xfff5e0e9),
+          ),
+          bodyText2: const TextStyle(
+            fontSize: kBodyText2FontSize,
+            color: Color(0xfff5e0e9),
+          ),
+          bodyText3: const TextStyle(
+            fontSize: kBodyText3FontSize,
+            color: Color(0xfff5e0e9),
+          ),
+          bodyText4: const TextStyle(
+            fontSize: kBodyText4FontSize,
+            color: Color(0xfff5e0e9),
+          ),
+          bodyText5: const TextStyle(
+            fontSize: kBodyText5FontSize,
+            color: Color(0xfff5e0e9),
+          ),
+          bodyText6: const TextStyle(
+            fontSize: kBodyText6FontSize,
+            color: Color(0xfff5e0e9),
+          ),
+          defaultRadius: _defaultRadius,
+        );
 
+  const HomeTheme.tennojirina(Widget child)
+      : super(
+          child: child,
+          style: LeafyThemeStyle.tennojirina,
+          leafyColor: const Color(0xffD962A6),
+          foregroundColor: const Color(0xffede0e5),
+          foregroundPressedColor: const Color(0xffa59ca0),
+          backgroundColor: const Color(0xff27152c),
+          secondaryBackgroundColor: const Color(0xffD454AE),
+          textInfoColor: const Color(0xffede0e5),
+          dialogPositiveColor: const Color(0xffD962A6),
+          dialogNegativeColor: const Color(0xffD79CAA),
+          separatorColor: const Color(0xffD454AE),
+          deleteColor: const Color(0xffD79CAA),
+          bodyText1: const TextStyle(
+            fontSize: kBodyText1FontSize,
+            color: Color(0xffede0e5),
+          ),
+          bodyText2: const TextStyle(
+            fontSize: kBodyText2FontSize,
+            color: Color(0xffede0e5),
+          ),
+          bodyText3: const TextStyle(
+            fontSize: kBodyText3FontSize,
+            color: Color(0xffede0e5),
+          ),
+          bodyText4: const TextStyle(
+            fontSize: kBodyText4FontSize,
+            color: Color(0xffede0e5),
+          ),
+          bodyText5: const TextStyle(
+            fontSize: kBodyText5FontSize,
+            color: Color(0xffede0e5),
+          ),
+          bodyText6: const TextStyle(
+            fontSize: kBodyText6FontSize,
+            color: Color(0xffede0e5),
+          ),
+          defaultRadius: _defaultRadius,
+        );
 
-const HomeTheme.dark(Widget child) 
-   : super(         
-child: child, 
-style: LeafyThemeStyle.dark, 
-leafyColor: const Color(0xffC5AAC6), 
-foregroundColor: const Color(0xfff5e0e9),
-foregroundPressedColor: const Color(0xffab9ca3), 
-backgroundColor: const Color(0xff010001), 
-secondaryBackgroundColor: const Color(0xff010001), 
-textInfoColor: const Color(0xfff5e0e9), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color(0xff54A4C4), 
-deleteColor: Colors.red, 
+  const HomeTheme.kagaminerin(Widget child)
+      : super(
+          child: child,
+          style: LeafyThemeStyle.kagaminerin,
+          leafyColor: const Color(0xff5F8F95),
+          foregroundColor: const Color(0xffeae3e1),
+          foregroundPressedColor: const Color(0xffa39e9d),
+          backgroundColor: const Color(0xff493c30),
+          secondaryBackgroundColor: const Color(0xff8E7B8D),
+          textInfoColor: const Color(0xffeae3e1),
+          dialogPositiveColor: const Color(0xff5F8F95),
+          dialogNegativeColor: const Color(0xffD0BDB2),
+          separatorColor: const Color(0xff8E7B8D),
+          deleteColor: const Color(0xffD0BDB2),
+          bodyText1: const TextStyle(
+            fontSize: kBodyText1FontSize,
+            color: Color(0xffeae3e1),
+          ),
+          bodyText2: const TextStyle(
+            fontSize: kBodyText2FontSize,
+            color: Color(0xffeae3e1),
+          ),
+          bodyText3: const TextStyle(
+            fontSize: kBodyText3FontSize,
+            color: Color(0xffeae3e1),
+          ),
+          bodyText4: const TextStyle(
+            fontSize: kBodyText4FontSize,
+            color: Color(0xffeae3e1),
+          ),
+          bodyText5: const TextStyle(
+            fontSize: kBodyText5FontSize,
+            color: Color(0xffeae3e1),
+          ),
+          bodyText6: const TextStyle(
+            fontSize: kBodyText6FontSize,
+            color: Color(0xffeae3e1),
+          ),
+          defaultRadius: _defaultRadius,
+        );
 
-bodyText1: const TextStyle(
-    fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText2: const TextStyle(
-    fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText3: const TextStyle(
-    fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText4: const TextStyle(
-    fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText5: const TextStyle(
-    fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText6: const TextStyle(
-    fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    defaultRadius: _defaultRadius,
-);
+  const HomeTheme.hatsunemiku(Widget child)
+      : super(
+          child: child,
+          style: LeafyThemeStyle.hatsunemiku,
+          leafyColor: const Color(0xff209DAD),
+          foregroundColor: const Color(0xffe2e6e5),
+          foregroundPressedColor: const Color(0xff9ea1a0),
+          backgroundColor: const Color(0xff13252f),
+          secondaryBackgroundColor: const Color(0xff6C6E80),
+          textInfoColor: const Color(0xffe2e6e5),
+          dialogPositiveColor: const Color(0xff209DAD),
+          dialogNegativeColor: const Color(0xffBEAFB0),
+          separatorColor: const Color(0xff6C6E80),
+          deleteColor: const Color(0xffBEAFB0),
+          bodyText1: const TextStyle(
+            fontSize: kBodyText1FontSize,
+            color: Color(0xffe2e6e5),
+          ),
+          bodyText2: const TextStyle(
+            fontSize: kBodyText2FontSize,
+            color: Color(0xffe2e6e5),
+          ),
+          bodyText3: const TextStyle(
+            fontSize: kBodyText3FontSize,
+            color: Color(0xffe2e6e5),
+          ),
+          bodyText4: const TextStyle(
+            fontSize: kBodyText4FontSize,
+            color: Color(0xffe2e6e5),
+          ),
+          bodyText5: const TextStyle(
+            fontSize: kBodyText5FontSize,
+            color: Color(0xffe2e6e5),
+          ),
+          bodyText6: const TextStyle(
+            fontSize: kBodyText6FontSize,
+            color: Color(0xffe2e6e5),
+          ),
+          defaultRadius: _defaultRadius,
+        );
 
-const HomeTheme.tennojirina(Widget child) 
-   : super(         
-child: child, 
-style: LeafyThemeStyle.tennojirina, 
-leafyColor: const Color(0xffEDA7D0), 
-foregroundColor: const Color(0xffede0e5),
-foregroundPressedColor: const Color(0xffa59ca0), 
-backgroundColor: const Color(0xff27152c), 
-secondaryBackgroundColor: const Color(0xff27152c), 
-textInfoColor: const Color(0xffede0e5), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color(0xffD79CAA), 
-deleteColor: Colors.red, 
+  const HomeTheme.yuukahayase(Widget child)
+      : super(
+          child: child,
+          style: LeafyThemeStyle.yuukahayase,
+          leafyColor: const Color(0xff877AA3),
+          foregroundColor: const Color(0xffe2e0e2),
+          foregroundPressedColor: const Color(0xff9e9c9e),
+          backgroundColor: const Color(0xff161518),
+          secondaryBackgroundColor: const Color(0xff65689A),
+          textInfoColor: const Color(0xffe2e0e2),
+          dialogPositiveColor: const Color(0xff877AA3),
+          dialogNegativeColor: const Color(0xff92ACD7),
+          separatorColor: const Color(0xff65689A),
+          deleteColor: const Color(0xff92ACD7),
+          bodyText1: const TextStyle(
+            fontSize: kBodyText1FontSize,
+            color: Color(0xffe2e0e2),
+          ),
+          bodyText2: const TextStyle(
+            fontSize: kBodyText2FontSize,
+            color: Color(0xffe2e0e2),
+          ),
+          bodyText3: const TextStyle(
+            fontSize: kBodyText3FontSize,
+            color: Color(0xffe2e0e2),
+          ),
+          bodyText4: const TextStyle(
+            fontSize: kBodyText4FontSize,
+            color: Color(0xffe2e0e2),
+          ),
+          bodyText5: const TextStyle(
+            fontSize: kBodyText5FontSize,
+            color: Color(0xffe2e0e2),
+          ),
+          bodyText6: const TextStyle(
+            fontSize: kBodyText6FontSize,
+            color: Color(0xffe2e0e2),
+          ),
+          defaultRadius: _defaultRadius,
+        );
 
-bodyText1: const TextStyle(
-    fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText2: const TextStyle(
-    fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText3: const TextStyle(
-    fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText4: const TextStyle(
-    fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText5: const TextStyle(
-    fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText6: const TextStyle(
-    fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    defaultRadius: _defaultRadius,
-);
+  const HomeTheme.fuukaaikiyo(Widget child)
+      : super(
+          child: child,
+          style: LeafyThemeStyle.fuukaaikiyo,
+          leafyColor: const Color(0xffE5AF65),
+          foregroundColor: const Color(0xffe6ccc8),
+          foregroundPressedColor: const Color(0xffa18e8c),
+          backgroundColor: const Color(0xff151521),
+          secondaryBackgroundColor: const Color(0xffB6986D),
+          textInfoColor: const Color(0xffe6ccc8),
+          dialogPositiveColor: const Color(0xffE5AF65),
+          dialogNegativeColor: const Color(0xff6694B9),
+          separatorColor: const Color(0xffB6986D),
+          deleteColor: const Color(0xff6694B9),
+          bodyText1: const TextStyle(
+            fontSize: kBodyText1FontSize,
+            color: Color(0xffe6ccc8),
+          ),
+          bodyText2: const TextStyle(
+            fontSize: kBodyText2FontSize,
+            color: Color(0xffe6ccc8),
+          ),
+          bodyText3: const TextStyle(
+            fontSize: kBodyText3FontSize,
+            color: Color(0xffe6ccc8),
+          ),
+          bodyText4: const TextStyle(
+            fontSize: kBodyText4FontSize,
+            color: Color(0xffe6ccc8),
+          ),
+          bodyText5: const TextStyle(
+            fontSize: kBodyText5FontSize,
+            color: Color(0xffe6ccc8),
+          ),
+          bodyText6: const TextStyle(
+            fontSize: kBodyText6FontSize,
+            color: Color(0xffe6ccc8),
+          ),
+          defaultRadius: _defaultRadius,
+        );
 
-const HomeTheme.kagaminerin(Widget child) 
-   : super(         
-child: child, 
-style: LeafyThemeStyle.kagaminerin, 
-leafyColor: const Color(0xffEBDB9B), 
-foregroundColor: const Color(0xffeae3e1),
-foregroundPressedColor: const Color(0xffa39e9d), 
-backgroundColor: const Color(0xff493c30), 
-secondaryBackgroundColor: const Color(0xff493c30), 
-textInfoColor: const Color(0xffeae3e1), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color(0xffD0BDB2), 
-deleteColor: Colors.red, 
+  const HomeTheme.sorasakihina(Widget child)
+      : super(
+          child: child,
+          style: LeafyThemeStyle.sorasakihina,
+          leafyColor: const Color(0xff9D7F69),
+          foregroundColor: const Color(0xffe2dfe3),
+          foregroundPressedColor: const Color(0xff9e9c9e),
+          backgroundColor: const Color(0xff0b0b0c),
+          secondaryBackgroundColor: const Color(0xff5A5563),
+          textInfoColor: const Color(0xffe2dfe3),
+          dialogPositiveColor: const Color(0xff9D7F69),
+          dialogNegativeColor: const Color(0xffA49AAC),
+          separatorColor: const Color(0xff5A5563),
+          deleteColor: const Color(0xffA49AAC),
+          bodyText1: const TextStyle(
+            fontSize: kBodyText1FontSize,
+            color: Color(0xffe2dfe3),
+          ),
+          bodyText2: const TextStyle(
+            fontSize: kBodyText2FontSize,
+            color: Color(0xffe2dfe3),
+          ),
+          bodyText3: const TextStyle(
+            fontSize: kBodyText3FontSize,
+            color: Color(0xffe2dfe3),
+          ),
+          bodyText4: const TextStyle(
+            fontSize: kBodyText4FontSize,
+            color: Color(0xffe2dfe3),
+          ),
+          bodyText5: const TextStyle(
+            fontSize: kBodyText5FontSize,
+            color: Color(0xffe2dfe3),
+          ),
+          bodyText6: const TextStyle(
+            fontSize: kBodyText6FontSize,
+            color: Color(0xffe2dfe3),
+          ),
+          defaultRadius: _defaultRadius,
+        );
 
-bodyText1: const TextStyle(
-    fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText2: const TextStyle(
-    fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText3: const TextStyle(
-    fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText4: const TextStyle(
-    fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText5: const TextStyle(
-    fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText6: const TextStyle(
-    fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    defaultRadius: _defaultRadius,
-);
-
-const HomeTheme.hatsunemiku(Widget child) 
-   : super(         
-child: child, 
-style: LeafyThemeStyle.hatsunemiku, 
-leafyColor: const Color(0xffA3D5D2), 
-foregroundColor: const Color(0xffe2e6e5),
-foregroundPressedColor: const Color(0xff9ea1a0), 
-backgroundColor: const Color(0xff13252f), 
-secondaryBackgroundColor: const Color(0xff13252f), 
-textInfoColor: const Color(0xffe2e6e5), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color(0xffBEAFB0), 
-deleteColor: Colors.red, 
-
-bodyText1: const TextStyle(
-    fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText2: const TextStyle(
-    fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText3: const TextStyle(
-    fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText4: const TextStyle(
-    fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText5: const TextStyle(
-    fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText6: const TextStyle(
-    fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    defaultRadius: _defaultRadius,
-);
-
-const HomeTheme.yuukahayase(Widget child) 
-   : super(         
-child: child, 
-style: LeafyThemeStyle.yuukahayase, 
-leafyColor: const Color(0xffB0C4DD), 
-foregroundColor: const Color(0xffe2e0e2),
-foregroundPressedColor: const Color(0xff9e9c9e), 
-backgroundColor: const Color(0xff161518), 
-secondaryBackgroundColor: const Color(0xff161518), 
-textInfoColor: const Color(0xffe2e0e2), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color(0xff92ACD7), 
-deleteColor: Colors.red, 
-
-bodyText1: const TextStyle(
-    fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText2: const TextStyle(
-    fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText3: const TextStyle(
-    fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText4: const TextStyle(
-    fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText5: const TextStyle(
-    fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText6: const TextStyle(
-    fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    defaultRadius: _defaultRadius,
-);
-
-const HomeTheme.fuukaaikiyo(Widget child) 
-   : super(         
-child: child, 
-style: LeafyThemeStyle.fuukaaikiyo, 
-leafyColor: const Color(0xffA2949C), 
-foregroundColor: const Color(0xffe6ccc8),
-foregroundPressedColor: const Color(0xffa18e8c), 
-backgroundColor: const Color(0xff151521), 
-secondaryBackgroundColor: const Color(0xff151521), 
-textInfoColor: const Color(0xffe6ccc8), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color(0xff6694B9), 
-deleteColor: Colors.red, 
-
-bodyText1: const TextStyle(
-    fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText2: const TextStyle(
-    fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText3: const TextStyle(
-    fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText4: const TextStyle(
-    fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText5: const TextStyle(
-    fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText6: const TextStyle(
-    fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    defaultRadius: _defaultRadius,
-);
-
-const HomeTheme.sorasakihina(Widget child) 
-   : super(         
-child: child, 
-style: LeafyThemeStyle.sorasakihina, 
-leafyColor: const Color(0xffC0ADC1), 
-foregroundColor: const Color(0xffe2dfe3),
-foregroundPressedColor: const Color(0xff9e9c9e), 
-backgroundColor: const Color(0xff0b0b0c), 
-secondaryBackgroundColor: const Color(0xff0b0b0c), 
-textInfoColor: const Color(0xffe2dfe3), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color(0xffA49AAC), 
-deleteColor: Colors.red, 
-
-bodyText1: const TextStyle(
-    fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText2: const TextStyle(
-    fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText3: const TextStyle(
-    fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText4: const TextStyle(
-    fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText5: const TextStyle(
-    fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText6: const TextStyle(
-    fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    defaultRadius: _defaultRadius,
-);
-
-const HomeTheme.onikatakayoko(Widget child) 
-   : super(         
-child: child, 
-style: LeafyThemeStyle.onikatakayoko, 
-leafyColor: const Color(0xffC7B6BD), 
-foregroundColor: const Color(0xffe2dfe2),
-foregroundPressedColor: const Color(0xff9e9c9e), 
-backgroundColor: const Color(0xff181820), 
-secondaryBackgroundColor: const Color(0xff181820), 
-textInfoColor: const Color(0xffe2dfe2), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color(0xffA39AA0), 
-deleteColor: Colors.red, 
-
-bodyText1: const TextStyle(
-    fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText2: const TextStyle(
-    fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText3: const TextStyle(
-    fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText4: const TextStyle(
-    fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText5: const TextStyle(
-    fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    bodyText6: const TextStyle(
-    fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
-    ),
-    defaultRadius: _defaultRadius,
-);
+  const HomeTheme.onikatakayoko(Widget child)
+      : super(
+          child: child,
+          style: LeafyThemeStyle.onikatakayoko,
+          leafyColor: const Color(0xff8B7172),
+          foregroundColor: const Color(0xffe2dfe2),
+          foregroundPressedColor: const Color(0xff9e9c9e),
+          backgroundColor: const Color(0xff181820),
+          secondaryBackgroundColor: const Color(0xff6C636E),
+          textInfoColor: const Color(0xffe2dfe2),
+          dialogPositiveColor: const Color(0xff8B7172),
+          dialogNegativeColor: const Color(0xffA39AA0),
+          separatorColor: const Color(0xff6C636E),
+          deleteColor: const Color(0xffA39AA0),
+          bodyText1: const TextStyle(
+            fontSize: kBodyText1FontSize,
+            color: Color(0xffe2dfe2),
+          ),
+          bodyText2: const TextStyle(
+            fontSize: kBodyText2FontSize,
+            color: Color(0xffe2dfe2),
+          ),
+          bodyText3: const TextStyle(
+            fontSize: kBodyText3FontSize,
+            color: Color(0xffe2dfe2),
+          ),
+          bodyText4: const TextStyle(
+            fontSize: kBodyText4FontSize,
+            color: Color(0xffe2dfe2),
+          ),
+          bodyText5: const TextStyle(
+            fontSize: kBodyText5FontSize,
+            color: Color(0xffe2dfe2),
+          ),
+          bodyText6: const TextStyle(
+            fontSize: kBodyText6FontSize,
+            color: Color(0xffe2dfe2),
+          ),
+          defaultRadius: _defaultRadius,
+        );
 }

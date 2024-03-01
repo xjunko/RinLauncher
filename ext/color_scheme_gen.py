@@ -192,42 +192,42 @@ def generate_home_theme(color_schemes: dict[str, Any]) -> str:
         impl += f"""        
 child: child, 
 style: LeafyThemeStyle.{color_name.lower()}, 
-leafyColor: const Color({color_data.colors.color14}), 
-foregroundColor: const Color({color_data.special.foreground}),
+leafyColor: const Color({color_data.colors.color2}), 
+foregroundColor: const Color({color_data.colors.color7}),
 foregroundPressedColor: const Color({color_data.colors.color8}), 
-backgroundColor: const Color({color_data.special.background}), 
-secondaryBackgroundColor: const Color({color_data.special.background_dimmer}), 
-textInfoColor: const Color({color_data.colors.color15}), 
-dialogPositiveColor: Colors.green, 
-dialogNegativeColor: Colors.red, 
-separatorColor: const Color({color_data.colors.color13}), 
-deleteColor: Colors.red, 
+backgroundColor: const Color({color_data.colors.color0}), 
+secondaryBackgroundColor: const Color({color_data.colors.color9}), 
+textInfoColor: const Color({color_data.colors.color7}), 
+dialogPositiveColor: const Color({color_data.colors.color10}), 
+dialogNegativeColor: const Color({color_data.colors.color13}), 
+separatorColor: const Color({color_data.colors.color1}), 
+deleteColor: const Color({color_data.colors.color13}), 
 """
 
-        impl += """
+        impl += f"""
 bodyText1: const TextStyle(
     fontSize: kBodyText1FontSize,
-    color: _kDarkForegroundColor,
+    color: Color({color_data.colors.color7}),
     ),
     bodyText2: const TextStyle(
     fontSize: kBodyText2FontSize,
-    color: _kDarkForegroundColor,
+    color: Color({color_data.colors.color7}),
     ),
     bodyText3: const TextStyle(
     fontSize: kBodyText3FontSize,
-    color: _kDarkForegroundColor,
+    color: Color({color_data.colors.color7}),
     ),
     bodyText4: const TextStyle(
     fontSize: kBodyText4FontSize,
-    color: _kDarkForegroundColor,
+    color: Color({color_data.colors.color7}),
     ),
     bodyText5: const TextStyle(
     fontSize: kBodyText5FontSize,
-    color: _kDarkForegroundColor,
+    color: Color({color_data.colors.color7}),
     ),
     bodyText6: const TextStyle(
     fontSize: kBodyText6FontSize,
-    color: _kDarkForegroundColor,
+    color: Color({color_data.colors.color7}),
     ),
     defaultRadius: _defaultRadius,
 );"""

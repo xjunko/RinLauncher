@@ -1,27 +1,27 @@
 {
-    "wallpaper": "D:\\Projects\\RinLauncher\\ext\\_cache\\Rina_Reference.png",
+    "wallpaper": "D:\\Projects\\RinLauncher\\ext\\_cache\\Miku_Reference.webp",
     "alpha": "100",
     "special": {
-        "background": "#27152c",
-        "foreground": "#ede0e5",
-        "cursor": "#ede0e5"
+        "background": "#13252f",
+        "foreground": "#e2e6e5",
+        "cursor": "#e2e6e5"
     },
     "colors": {
-        "color0": "#27152c",
-        "color1": "#D454AE",
-        "color2": "#D962A6",
-        "color3": "#8C99A2",
-        "color4": "#B0A2B0",
-        "color5": "#D79CAA",
-        "color6": "#EDA7D0",
-        "color7": "#ede0e5",
-        "color8": "#a59ca0",
-        "color9": "#D454AE",
-        "color10": "#D962A6",
-        "color11": "#8C99A2",
-        "color12": "#B0A2B0",
-        "color13": "#D79CAA",
-        "color14": "#EDA7D0",
-        "color15": "#ede0e5"
+        "color0": "#13252f",
+        "color1": "#6C6E80",
+        "color2": "#209DAD",
+        "color3": "#5EAEB3",
+        "color4": "#68C2C5",
+        "color5": "#BEAFB0",
+        "color6": "#A3D5D2",
+        "color7": "#e2e6e5",
+        "color8": "#9ea1a0",
+        "color9": "#6C6E80",
+        "color10": "#209DAD",
+        "color11": "#5EAEB3",
+        "color12": "#68C2C5",
+        "color13": "#BEAFB0",
+        "color14": "#A3D5D2",
+        "color15": "#e2e6e5"
     }
 }
