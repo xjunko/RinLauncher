@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:rin_launcher/module/home_settings/about/home_settings_about_binding.dart';
@@ -89,6 +90,8 @@ class RinLauncher {
 
     // TODO: This is slowly being phased out.
     Paint.enableDithering = true;
+
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
 
     runApp(
       GetMaterialApp(

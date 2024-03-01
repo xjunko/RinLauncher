@@ -20,7 +20,7 @@ abstract class PageBase<TController extends ControllerBase,
   bool get resizeToAvoidBottomInset => true;
 
   @protected
-  bool get safeArea => true;
+  bool get safeArea => false;
 
   @protected
   OnWillPopData? get onWillPopData => OnWillPopData(controller.back);

@@ -36,7 +36,8 @@ class HomePage extends StatusPageBase<HomeController, HomeTheme> {
   @override
   Widget ready(BuildContext context, LeafyTheme theme) {
     // NOTE: Move this somewhere else.
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+    // SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
 
     return GetBuilder<HomeController>(
       id: HomeController.calendarPageBuilderKey,
