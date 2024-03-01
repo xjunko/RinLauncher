@@ -62,5 +62,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
-          name: leafy_launcher_${{ env.APP_VERSION }}.build_${{ github.run_number }}.dev.apk
-          path: src/build/app/outputs/flutter-apk/app-dev-release.apk
+          name: rin_launcher_${{ env.APP_VERSION }}.build_${{ github.run_number }}.prod.apk
+          path: src/build/app/outputs/flutter-apk/app-prod-release.apk
