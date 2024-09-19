@@ -55,6 +55,90 @@ bodyText1: const TextStyle(
     defaultRadius: _defaultRadius,
 );
 
+const HomeTheme.mystia(Widget child) 
+   : super(         
+child: child, 
+style: LeafyThemeStyle.mystia, 
+leafyColor: const Color(0xff9A689A), 
+foregroundColor: const Color(0xffe2cee1),
+foregroundPressedColor: const Color(0xff9e909d), 
+backgroundColor: const Color(0xff0b070d), 
+secondaryBackgroundColor: const Color(0xff6F5590), 
+textInfoColor: const Color(0xffe2cee1), 
+dialogPositiveColor: const Color(0xff9A689A), 
+dialogNegativeColor: const Color(0xffA88FAF), 
+separatorColor: const Color(0xff6F5590), 
+deleteColor: const Color(0xffA88FAF), 
+
+bodyText1: const TextStyle(
+    fontSize: kBodyText1FontSize,
+    color: Color(0xffe2cee1),
+    ),
+    bodyText2: const TextStyle(
+    fontSize: kBodyText2FontSize,
+    color: Color(0xffe2cee1),
+    ),
+    bodyText3: const TextStyle(
+    fontSize: kBodyText3FontSize,
+    color: Color(0xffe2cee1),
+    ),
+    bodyText4: const TextStyle(
+    fontSize: kBodyText4FontSize,
+    color: Color(0xffe2cee1),
+    ),
+    bodyText5: const TextStyle(
+    fontSize: kBodyText5FontSize,
+    color: Color(0xffe2cee1),
+    ),
+    bodyText6: const TextStyle(
+    fontSize: kBodyText6FontSize,
+    color: Color(0xffe2cee1),
+    ),
+    defaultRadius: _defaultRadius,
+);
+
+const HomeTheme.mystiaalternative(Widget child) 
+   : super(         
+child: child, 
+style: LeafyThemeStyle.mystiaalternative, 
+leafyColor: const Color(0xff906571), 
+foregroundColor: const Color(0xffe3d7d6),
+foregroundPressedColor: const Color(0xff9e9695), 
+backgroundColor: const Color(0xff0E0C15), 
+secondaryBackgroundColor: const Color(0xffA85A65), 
+textInfoColor: const Color(0xffe3d7d6), 
+dialogPositiveColor: const Color(0xff906571), 
+dialogNegativeColor: const Color(0xffAE8F93), 
+separatorColor: const Color(0xffA85A65), 
+deleteColor: const Color(0xffAE8F93), 
+
+bodyText1: const TextStyle(
+    fontSize: kBodyText1FontSize,
+    color: Color(0xffe3d7d6),
+    ),
+    bodyText2: const TextStyle(
+    fontSize: kBodyText2FontSize,
+    color: Color(0xffe3d7d6),
+    ),
+    bodyText3: const TextStyle(
+    fontSize: kBodyText3FontSize,
+    color: Color(0xffe3d7d6),
+    ),
+    bodyText4: const TextStyle(
+    fontSize: kBodyText4FontSize,
+    color: Color(0xffe3d7d6),
+    ),
+    bodyText5: const TextStyle(
+    fontSize: kBodyText5FontSize,
+    color: Color(0xffe3d7d6),
+    ),
+    bodyText6: const TextStyle(
+    fontSize: kBodyText6FontSize,
+    color: Color(0xffe3d7d6),
+    ),
+    defaultRadius: _defaultRadius,
+);
+
 const HomeTheme.tennojirina(Widget child) 
    : super(         
 child: child, 

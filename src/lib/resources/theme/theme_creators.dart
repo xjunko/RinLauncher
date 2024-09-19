@@ -11,6 +11,12 @@ HomeTheme _homeCreator(Widget child) {
       case LeafyThemeStyle.dark:
           return HomeTheme.dark(child);
 
+      case LeafyThemeStyle.mystia:
+          return HomeTheme.mystia(child);
+
+      case LeafyThemeStyle.mystiaalternative:
+          return HomeTheme.mystiaalternative(child);
+
       case LeafyThemeStyle.tennojirina:
           return HomeTheme.tennojirina(child);
 

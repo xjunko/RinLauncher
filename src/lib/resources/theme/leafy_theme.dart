@@ -146,6 +146,12 @@ abstract class LeafyTheme extends InheritedWidget {
 static void toggleTheme() {
     switch (_currentStyle) {
       case LeafyThemeStyle.dark:
+          _currentStyle = LeafyThemeStyle.mystia;
+          break;
+      case LeafyThemeStyle.mystia:
+          _currentStyle = LeafyThemeStyle.mystiaalternative;
+          break;
+      case LeafyThemeStyle.mystiaalternative:
           _currentStyle = LeafyThemeStyle.tennojirina;
           break;
       case LeafyThemeStyle.tennojirina:
