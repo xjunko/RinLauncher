@@ -29,7 +29,7 @@ class ContextMenuButton<TTheme extends LeafyTheme>
       throw Exception("Context's RenderBox was not found");
     }
 
-    final overlayRenderBox = Overlay.of(context)!.context.findRenderObject();
+    final overlayRenderBox = Overlay.of(context).context.findRenderObject();
 
     if (overlayRenderBox is! RenderBox) {
       throw Exception("Context Overlay's RenderBox was not found");

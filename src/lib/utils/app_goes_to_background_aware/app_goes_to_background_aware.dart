@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppGoesToBackgroundListener extends WidgetsBindingObserver {
   AppGoesToBackgroundListener(this._onGoesToBackground) {
-    WidgetsBinding.instance!.addObserver(this);
+    WidgetsBinding.instance.addObserver(this);
   }
 
   bool _disposed = false;
@@ -17,7 +17,7 @@ class AppGoesToBackgroundListener extends WidgetsBindingObserver {
 
   void dispose() {
     if (!_disposed) {
-      WidgetsBinding.instance!.removeObserver(this);
+      WidgetsBinding.instance.removeObserver(this);
       _disposed = true;
       _onGoesToBackground = null;
     }

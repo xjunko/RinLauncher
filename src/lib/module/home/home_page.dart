@@ -93,7 +93,7 @@ class HomePage extends StatusPageBase<HomeController, HomeTheme> {
                     ),
                     child: Stack(
                       children: [
-                        Column(
+                        const Column(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
@@ -103,14 +103,14 @@ class HomePage extends StatusPageBase<HomeController, HomeTheme> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsets.symmetric(
+                                padding: EdgeInsets.symmetric(
                                   horizontal: kHomeHorizontalPadding,
                                 ),
                                 child: Column(
                                   mainAxisSize: MainAxisSize.min,
                                   mainAxisAlignment: MainAxisAlignment.end,
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: const [
+                                  children: [
                                     LeafySpacer(multipler: 2.5),
                                     UserAppsList(),
                                   ],

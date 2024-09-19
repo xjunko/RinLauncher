@@ -61,10 +61,9 @@ class _LeafyDialogOptionWidget<T extends LeafyTheme> extends ThemedWidget<T> {
   Widget body(BuildContext context, LeafyTheme theme) {
     return TextButton(
       style: TextButton.styleFrom(
-        padding: EdgeInsets.zero,
+        foregroundColor: theme.foregroundColor.withOpacity(.2), padding: EdgeInsets.zero,
         backgroundColor: Colors.transparent,
         shape: const ContinuousRectangleBorder(),
-        primary: theme.foregroundColor.withOpacity(.2),
         fixedSize: const Size(100, 45),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
       ),

@@ -1,5 +1,5 @@
-import 'package:rin_launcher/utils/app_flavour/app_flavour.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:rin_launcher/utils/app_flavour/app_flavour.dart';
 
 class AppEnvironment {
   AppEnvironment(this._flavour);

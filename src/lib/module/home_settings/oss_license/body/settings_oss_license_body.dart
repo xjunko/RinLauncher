@@ -40,7 +40,7 @@ class SettingsOssLicenseBody
                   color: theme.foregroundColor,
                 ),
                 onTap: controller.openHomepage,
-              )
+              ),
             ],
           ),
         LeafySection<HomeTheme>(

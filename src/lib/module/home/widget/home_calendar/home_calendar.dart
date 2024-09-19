@@ -11,7 +11,6 @@ import 'package:rin_launcher/services/date_changed/date_changed_listener.dart';
 import 'package:rin_launcher/shared_widget/themed_state.dart';
 import 'package:table_calendar/table_calendar.dart';
 
-import 'home_calendar_cell.dart';
 
 class HomeCalendar extends StatefulWidget {
   const HomeCalendar({Key? key}) : super(key: key);
@@ -123,7 +122,7 @@ class _HomeCalendarState extends ThemedState<HomeCalendar, HomeTheme> {
             },
             headerTitleBuilder: (_, day) {
               return Text(
-                '''${DateFormat.MMMM(Get.locale!.languageCode).format(day).capitalizeFirst} ${day.year.toString()}''',
+                '''${DateFormat.MMMM(Get.locale!.languageCode).format(day).capitalizeFirst} ${day.year}''',
                 style: theme.bodyText2,
                 textAlign: TextAlign.center,
               );

@@ -174,11 +174,10 @@ class _MenuOption<TTheme extends LeafyTheme> extends ThemedWidget<TTheme> {
       height: height,
       child: TextButton(
         style: TextButton.styleFrom(
-          padding: const EdgeInsets.symmetric(
+          foregroundColor: theme.foregroundColor, padding: const EdgeInsets.symmetric(
             horizontal: 16,
             vertical: 8,
           ),
-          primary: theme.foregroundColor,
         ),
         onPressed: () {
           Navigator.of(context).pop();
