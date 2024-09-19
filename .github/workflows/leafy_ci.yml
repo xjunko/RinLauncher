@@ -60,7 +60,11 @@ jobs:
         run: flutter build apk --release --build-number "${{ github.run_number }}" --flavor prod -t lib/main_prod.dart
 
       - name: Upload APK
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: rin_launcher_${{ env.APP_VERSION }}.build_${{ github.run_number }}.prod.apk
           path: src/build/app/outputs/flutter-apk/app-prod-release.apk
+
+
+
+
