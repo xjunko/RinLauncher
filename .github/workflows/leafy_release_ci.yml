@@ -101,6 +101,8 @@ jobs:
           script: |
             const { APK_NAME, APP_BUNDLE_NAME, RELEASE_ID, BUILT_APK_PATH, RENAMED_APK_PATH, BUILT_APP_BUNDLE_PATH, RENAMED_APP_BUNDLE_PATH } = process.env;
 
+            const fs = require('fs');
+            
             const uploadApkResponse = await github.repos.uploadReleaseAsset({
               owner: context.repo.owner,
               repo: context.repo.repo,
